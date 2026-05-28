@@ -65,8 +65,8 @@ Build order:
 2. Product Planning Agent - Done
 3. Detail Page Agent - Done
 4. Content Planning Agent - Done
-5. Styling Agent - Next
-6. Customer Response Agent - Planned
+5. Styling Agent - Done
+6. Customer Response Agent - Next
 7. Review Insight Agent - Planned
 8. Test workflow with one product - Planned
 
@@ -105,3 +105,15 @@ Files:
 - `examples/content-planning-example.md`
 
 This agent turns a product message into short-form videos, feed carousel posts, captions, hashtags, shooting checklists, and a 7-day content plan.
+
+## Styling Agent
+
+The fourth agent is now defined.
+
+Files:
+
+- `agents/styling-agent.md`
+- `templates/styling-request-template.md`
+- `examples/styling-example.md`
+
+This agent creates outfit combinations, product set suggestions, detail page styling blocks, content styling ideas, and cross-sell copy.
