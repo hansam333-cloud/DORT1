@@ -64,8 +64,8 @@ Build order:
 1. Brand guide and target customer docs - Done
 2. Product Planning Agent - Done
 3. Detail Page Agent - Done
-4. Content Planning Agent - Next
-5. Styling Agent - Planned
+4. Content Planning Agent - Done
+5. Styling Agent - Next
 6. Customer Response Agent - Planned
 7. Review Insight Agent - Planned
 8. Test workflow with one product - Planned
@@ -93,3 +93,15 @@ Files:
 - `examples/detail-page-example.md`
 
 This agent turns a product planning result into a purchase-ready ecommerce detail page structure with fit points, model fit check, size guide, shooting direction, styling section, and final copy draft.
+
+## Content Planning Agent
+
+The third agent is now defined.
+
+Files:
+
+- `agents/content-planning-agent.md`
+- `templates/content-brief-template.md`
+- `examples/content-planning-example.md`
+
+This agent turns a product message into short-form videos, feed carousel posts, captions, hashtags, shooting checklists, and a 7-day content plan.
