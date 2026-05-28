@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[피지컬워싱] 헨리넥 슬리브리스 | DORT</title>
+  <style>
+    :root {
+      --ink: #161616;
+      --muted: #696966;
+      --line: #dedbd3;
+      --paper: #f7f5ef;
+      --white: #fffdfa;
+      --olive: #60624f;
+      --clay: #9b755a;
+      --charcoal: #242423;
+      --radius: 6px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, "Noto Sans KR", "Malgun Gothic", sans-serif;
+      letter-spacing: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      background: #ece8df;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 58px;
+      padding: 0 28px;
+      border-bottom: 1px solid rgba(22, 22, 22, .12);
+      background: rgba(247, 245, 239, .92);
+      backdrop-filter: blur(16px);
+    }
+
+    .brand {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .nav {
+      display: flex;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(360px, .95fr);
+      gap: 0;
+      min-height: calc(100vh - 58px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero-media {
+      min-height: calc(100vh - 58px);
+      overflow: hidden;
+      background: #ebe8df;
+    }
+
+    .hero-media img {
+      height: 100%;
+      min-height: calc(100vh - 58px);
+    }
+
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 56px clamp(28px, 5vw, 76px);
+      background: var(--white);
+    }
+
+    .eyebrow {
+      margin-bottom: 18px;
+      color: var(--olive);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 660px;
+      font-size: clamp(36px, 5vw, 74px);
+      line-height: 1.02;
+      font-weight: 800;
+      word-break: keep-all;
+    }
+
+    .lead {
+      max-width: 520px;
+      margin: 24px 0 0;
+      color: #393936;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .price-row {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .price {
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    .tag {
+      padding-bottom: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .swatches {
+      display: flex;
+      gap: 10px;
+      margin-top: 26px;
+    }
+
+    .swatch {
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgba(22, 22, 22, .22);
+      border-radius: 999px;
+    }
+
+    .swatch.black { background: #20201e; }
+    .swatch.charcoal { background: #4b4b45; }
+    .swatch.khaki { background: #73715b; }
+    .swatch.gray { background: #aaa79f; }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      max-width: 460px;
+      margin-top: 30px;
+    }
+
+    button {
+      height: 52px;
+      border: 1px solid var(--ink);
+      border-radius: var(--radius);
+      background: transparent;
+      color: var(--ink);
+      font: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button.primary {
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    section {
+      padding: 82px clamp(22px, 5vw, 72px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(180px, 300px) minmax(0, 760px);
+      gap: clamp(22px, 5vw, 70px);
+      align-items: start;
+      max-width: 1220px;
+      margin: 0 auto 42px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 42px);
+      line-height: 1.12;
+    }
+
+    .section-head p,
+    .copy p {
+      margin: 0;
+      color: #3d3d38;
+      font-size: 17px;
+      line-height: 1.82;
+    }
+
+    .hooks {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      max-width: 1220px;
+      margin: 0 auto;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+
+    .hook {
+      min-height: 160px;
+      padding: 28px;
+      background: var(--white);
+    }
+
+    .hook strong {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 19px;
+    }
+
+    .hook span {
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .fit-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .fit-image {
+      align-self: stretch;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: #ebe8df;
+    }
+
+    .fit-image img {
+      height: 100%;
+      min-height: 620px;
+    }
+
+    .fit-list {
+      display: grid;
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+
+    .fit-item {
+      padding: 28px;
+      background: var(--white);
+    }
+
+    .fit-item h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    .fit-item p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.72;
+    }
+
+    .model {
+      display: grid;
+      grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+      gap: 34px;
+      max-width: 1220px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .model-copy {
+      padding: clamp(24px, 4vw, 54px);
+      background: var(--charcoal);
+      color: var(--white);
+      border-radius: var(--radius);
+    }
+
+    .model-copy .metric {
+      margin-bottom: 18px;
+      color: #d9d3c8;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .model-copy h2 {
+      margin-bottom: 22px;
+    }
+
+    .model-copy p {
+      color: #e9e3d7;
+      line-height: 1.8;
+    }
+
+    .size-wrap {
+      max-width: 1220px;
+      margin: 0 auto;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+    }
+
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+
+    th, td {
+      padding: 18px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #efede6;
+      font-size: 13px;
+      color: #555247;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .styling {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 34px;
+      max-width: 1220px;
+      margin: 0 auto;
+      align-items: start;
+    }
+
+    .styling-copy {
+      display: grid;
+      gap: 18px;
+    }
+
+    .style-line {
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .style-line strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .style-line p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .info-band {
+      background: #e9e4d8;
+    }
+
+    .check-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      max-width: 1220px;
+      margin: 0 auto;
+      background: rgba(22, 22, 22, .16);
+      border: 1px solid rgba(22, 22, 22, .16);
+    }
+
+    .check {
+      min-height: 132px;
+      padding: 24px;
+      background: var(--paper);
+      line-height: 1.68;
+    }
+
+    .footer-cta {
+      padding: 74px 22px;
+      text-align: center;
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    .footer-cta h2 {
+      max-width: 720px;
+      margin: 0 auto 24px;
+    }
+
+    .footer-cta button {
+      width: min(340px, 100%);
+      border-color: var(--white);
+      color: var(--white);
+    }
+
+    @media (max-width: 900px) {
+      .topbar {
+        padding: 0 18px;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .hero,
+      .fit-grid,
+      .model,
+      .styling,
+      .section-head {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-media,
+      .hero-media img {
+        min-height: 58vh;
+        max-height: 72vh;
+      }
+
+      .hero-copy {
+        padding: 38px 22px 48px;
+      }
+
+      h1 {
+        font-size: clamp(30px, 9vw, 44px);
+        line-height: 1.12;
+      }
+
+      .actions,
+      .hooks,
+      .check-grid {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 58px 18px;
+      }
+
+      .fit-image img {
+        min-height: 420px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">DORT</div>
+    <nav class="nav" aria-label="상품 섹션">
+      <span>FIT</span>
+      <span>MODEL</span>
+      <span>SIZE</span>
+      <span>STYLING</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-media">
+        <img src="../../assets/generated/pigment-sleeveless-hero.png" alt="피그먼트 워싱 헨리넥 슬리브리스를 입은 남성 모델 정면 착용 컷">
+      </div>
+      <div class="hero-copy">
+        <div class="eyebrow">PHYSICAL FIT DAILYWEAR</div>
+        <h1>[피지컬워싱] 헨리넥 슬리브리스</h1>
+        <p class="lead">나시의 시원함은 살리고, 상체 라인은 과하지 않게 정리한 피그먼트 워싱 슬리브리스.</p>
+        <div class="price-row">
+          <div class="price">46,000원</div>
+          <div class="tag">예상 판매가</div>
+        </div>
+        <div class="swatches" aria-label="컬러 옵션">
+          <span class="swatch black" title="워시드블랙"></span>
+          <span class="swatch charcoal" title="피그먼트 차콜"></span>
+          <span class="swatch khaki" title="피그먼트 카키"></span>
+          <span class="swatch gray" title="피그먼트 그레이"></span>
+        </div>
+        <div class="actions">
+          <button class="primary">구매하기</button>
+          <button>사이즈 확인</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Top Purchase Hooks</h2>
+        <p>헬스복처럼 과하게 붙는 나시가 아니라, 여름 일상에서 상체 라인을 자연스럽게 살리는 핏을 기준으로 잡았습니다.</p>
+      </div>
+      <div class="hooks">
+        <div class="hook">
+          <strong>좁아 보이지 않는 어깨</strong>
+          <span>어깨 시작점이 안정적으로 남아 정면에서 상체 폭이 답답해 보이지 않습니다.</span>
+        </div>
+        <div class="hook">
+          <strong>부담을 줄인 암홀</strong>
+          <span>시원하지만 과하게 깊지 않은 암홀로 단독 착용과 이너 착용을 모두 고려했습니다.</span>
+        </div>
+        <div class="hook">
+          <strong>완성도 있는 워싱 디테일</strong>
+          <span>피그먼트 워싱과 헨리넥 버튼으로 기본 나시보다 스타일 포인트가 분명합니다.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>DORT Fit Point</h2>
+        <p>나시는 작은 실측 차이로도 인상이 크게 달라집니다. DORT는 어깨, 암홀, 가슴, 허리, 총장을 따로 보고 상체 균형이 좋아 보이는지 확인합니다.</p>
+      </div>
+      <div class="fit-grid">
+        <div class="fit-image">
+          <img src="../../assets/generated/pigment-sleeveless-detail.png" alt="헨리넥 버튼과 피그먼트 워싱 원단 클로즈업">
+        </div>
+        <div class="fit-list">
+          <article class="fit-item">
+            <h3>어깨가 좁아 보이지 않는 넥라인</h3>
+            <p>끈이 안쪽으로 몰리면 어깨가 좁아 보입니다. 정면에서 어깨 시작점이 안정적으로 남는 균형을 기준으로 합니다.</p>
+          </article>
+          <article class="fit-item">
+            <h3>일상에서 입기 좋은 암홀 깊이</h3>
+            <p>시원함은 살리되 옆가슴 노출이 과하지 않게 조정해 단독 착용의 부담을 줄입니다.</p>
+          </article>
+          <article class="fit-item">
+            <h3>자연스럽게 잡히는 가슴과 팔 라인</h3>
+            <p>타이트한 머슬핏보다 몸의 장점이 은근하게 드러나는 세미 머슬핏을 목표로 합니다.</p>
+          </article>
+          <article class="fit-item">
+            <h3>허리가 부해 보이지 않는 밑단 흐름</h3>
+            <p>밑단이 과하게 벌어지지 않아 옆모습이 둔해 보이지 않고 전체 비율이 깔끔하게 이어집니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="model">
+        <div class="model-copy">
+          <div class="metric">MODEL 183cm / 78kg / L 착용 기준</div>
+          <h2>상체 라인은 살리고 노출 부담은 줄인 기준핏</h2>
+          <p>평소 상의 105 또는 L 사이즈를 입는 체형 기준으로, L 사이즈 착용 시 가슴과 팔 라인은 자연스럽게 잡히고 암홀은 과한 노출 없이 떨어지는 핏을 추천합니다.</p>
+        </div>
+        <img src="../../assets/generated/pigment-sleeveless-hero.png" alt="183cm 모델의 피그먼트 워싱 슬리브리스 착용 실루엣">
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Size Guide</h2>
+        <p>평소 상의 사이즈와 원하는 착용감에 맞춰 선택해 주세요. 상체가 발달한 체형이거나 암홀 노출이 부담스럽다면 한 사이즈 업을 고려할 수 있습니다.</p>
+      </div>
+      <div class="size-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>체형</th>
+              <th>평소 상의</th>
+              <th>추천 사이즈</th>
+              <th>핏 느낌</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>슬림~보통 체형</td>
+              <td>95~100 / M</td>
+              <td>M</td>
+              <td>여유 있는 데일리 슬리브리스 핏</td>
+            </tr>
+            <tr>
+              <td>보통~운동 체형</td>
+              <td>100~105 / L</td>
+              <td>L</td>
+              <td>DORT 추천 세미 머슬핏</td>
+            </tr>
+            <tr>
+              <td>상체 발달 체형</td>
+              <td>105~110 / XL</td>
+              <td>XL</td>
+              <td>가슴과 암홀 부담을 줄인 안정적인 핏</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <div class="styling">
+        <img src="../../assets/generated/pigment-sleeveless-layered.png" alt="라이트그레이 린넨 셔츠와 레이어드한 워시드블랙 슬리브리스 스타일링">
+        <div class="styling-copy">
+          <h2>Styling</h2>
+          <div class="style-line">
+            <strong>워시드 차콜 + 중청 와이드 데님</strong>
+            <p>가장 DORT다운 여름 데일리 조합. 상체는 탄탄하게, 하체는 길고 여유롭게 보입니다.</p>
+          </div>
+          <div class="style-line">
+            <strong>피그먼트 카키 + 블랙 카고팬츠</strong>
+            <p>워싱감과 카고 디테일을 연결해 남성적인 여름 무드를 만듭니다.</p>
+          </div>
+          <div class="style-line">
+            <strong>워시드블랙 + 라이트그레이 린넨 셔츠</strong>
+            <p>나시 단독 착용이 부담스러운 날, 노출 부담은 줄이고 워싱감은 살리는 현실적인 조합입니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-band">
+      <div class="section-head">
+        <h2>Fabric & Washing</h2>
+        <p>피그먼트 워싱 상품은 염색과 워싱 공정 특성상 색감, 워싱 위치, 데미지 표현이 개체마다 조금씩 다를 수 있습니다. 첫 세탁은 단독 세탁을 권장합니다.</p>
+      </div>
+      <div class="check-grid">
+        <div class="check">워싱 상품 특성상 컬러 편차가 있을 수 있습니다.</div>
+        <div class="check">밝은 색 의류와 장시간 마찰을 피해주세요.</div>
+        <div class="check">건조기 사용을 지양하고 자연 건조를 권장합니다.</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Purchase Check</h2>
+        <p>나시는 체형에 따라 암홀 깊이와 가슴 노출이 다르게 느껴질 수 있습니다. 상체가 발달한 체형은 버튼 벌어짐을 줄이기 위해 한 사이즈 업도 검토해 주세요.</p>
+      </div>
+    </section>
+
+    <div class="footer-cta">
+      <h2>피그먼트 워싱의 무드와 DORT의 피지컬핏을 한 장으로.</h2>
+      <button>구매하기</button>
+    </div>
+  </main>
+</body>
+</html>
