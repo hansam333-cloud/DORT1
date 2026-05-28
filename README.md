@@ -59,13 +59,25 @@ Core fit principle:
 
 This repository is in the initial planning stage.
 
-First build order:
+Build order:
 
-1. Brand guide and target customer docs
-2. Product Planning Agent
-3. Detail Page Agent
-4. Content Planning Agent
-5. Styling Agent
-6. Customer Response Agent
-7. Review Insight Agent
-8. Test workflow with one product
+1. Brand guide and target customer docs - Done
+2. Product Planning Agent - Done
+3. Detail Page Agent - Next
+4. Content Planning Agent - Planned
+5. Styling Agent - Planned
+6. Customer Response Agent - Planned
+7. Review Insight Agent - Planned
+8. Test workflow with one product - Planned
+
+## Product Planning Agent
+
+The first agent is now defined.
+
+Files:
+
+- `agents/product-planning-agent.md`
+- `templates/product-input-template.md`
+- `examples/product-planning-example.md`
+
+This agent evaluates product candidates before they move into detail page writing, content planning, styling, and customer response.
