@@ -66,8 +66,8 @@ Build order:
 3. Detail Page Agent - Done
 4. Content Planning Agent - Done
 5. Styling Agent - Done
-6. Customer Response Agent - Next
-7. Review Insight Agent - Planned
+6. Customer Response Agent - Done
+7. Review Insight Agent - Next
 8. Test workflow with one product - Planned
 
 ## Product Planning Agent
@@ -117,3 +117,15 @@ Files:
 - `examples/styling-example.md`
 
 This agent creates outfit combinations, product set suggestions, detail page styling blocks, content styling ideas, and cross-sell copy.
+
+## Customer Response Agent
+
+The fifth agent is now defined.
+
+Files:
+
+- `agents/customer-response-agent.md`
+- `templates/customer-inquiry-template.md`
+- `examples/customer-response-example.md`
+
+This agent creates DORT-tone replies for size questions, fit questions, styling questions, shipping questions, exchange/return guidance, review requests, and post-purchase care.
