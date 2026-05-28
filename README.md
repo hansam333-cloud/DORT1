@@ -67,8 +67,8 @@ Build order:
 4. Content Planning Agent - Done
 5. Styling Agent - Done
 6. Customer Response Agent - Done
-7. Review Insight Agent - Next
-8. Test workflow with one product - Planned
+7. Review Insight Agent - Done
+8. Test workflow with one product - Done
 
 ## Product Planning Agent
 
@@ -129,3 +129,43 @@ Files:
 - `examples/customer-response-example.md`
 
 This agent creates DORT-tone replies for size questions, fit questions, styling questions, shipping questions, exchange/return guidance, review requests, and post-purchase care.
+
+## Review Insight Agent
+
+The sixth agent is now defined.
+
+Files:
+
+- `agents/review-insight-agent.md`
+- `templates/review-analysis-template.md`
+- `examples/review-insight-example.md`
+
+This agent analyzes reviews, inquiries, exchange/return reasons, and customer feedback to improve products, detail pages, content, styling, and customer responses.
+
+## First Product Test Workflow
+
+The first full workflow document is now defined.
+
+File:
+
+- `docs/first-product-test-workflow.md`
+
+This document shows how one product moves through the full DORT-OPS loop:
+
+```text
+Product Planning
+→ Detail Page
+→ Content Planning
+→ Styling
+→ Customer Response
+→ Review Insight
+→ Product Planning
+```
+
+## Current Version
+
+```text
+v0.1 - Initial DORT operating agent system
+```
+
+The first version is complete as a document-based operating system. Next improvements can focus on testing the agents with real products, adding more examples, and turning repeated workflows into automation.
