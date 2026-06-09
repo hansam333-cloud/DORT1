@@ -37,6 +37,8 @@ Product concept brief
 Purpose:
 
 - Generate product-accurate fitting images from product-only photos
+- Register reusable model profiles and product library records
+- Check whether references are sufficient before generation
 - Preserve the registered model's face and body proportions
 - Preserve product details across detail pages, SNS images, and lookbooks
 - Support composition, background, pose, color-option, and product-replacement requests
@@ -44,7 +46,7 @@ Purpose:
 Main output:
 
 ```text
-Product-accurate fitting image prompt and generation request
+Product-accurate fitting image prompt, QA result, and detail page handoff
 ```
 
 ## 3. Detail Page Agent

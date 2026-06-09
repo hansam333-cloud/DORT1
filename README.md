@@ -93,9 +93,13 @@ Files:
 
 - `agents/fitting-image-agent.md`
 - `templates/fitting-image-request-template.md`
+- `templates/model-profile-template.md`
+- `templates/product-library-record-template.md`
+- `templates/fitting-image-qa-template.md`
 - `examples/fitting-image-example.md`
+- `examples/fitting-image-product-replacement-example.md`
 
-This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks. It preserves the registered model's face and body proportions while keeping each product ID visually consistent.
+This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks. It registers reusable model profiles and product library records, checks reference sufficiency, creates generation and replacement prompts, and QA-checks whether each result is accurate enough for ecommerce use.
 
 ## Detail Page Agent
 

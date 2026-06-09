@@ -50,6 +50,8 @@ Output:
 - Main fitting cut direction
 - Full-body, upper-body, side, back, and detail cut direction
 - Product detail preservation notes
+- QA checklist
+- Detail Page Agent handoff notes
 - Missing image requests if the product cannot be reproduced accurately
 
 Next:
