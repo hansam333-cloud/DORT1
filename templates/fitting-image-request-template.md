@@ -100,16 +100,16 @@ Reason:
 
 ```text
 Output use:
-Composition:
+Composition: Front / 45-degree / Side / Back / Mirror selfie / Third-person view of model taking a selfie / Other
 Camera height:
 Background:
-Pose:
+Pose: Natural standing / Walking / Mirror selfie pose / Taking a selfie while being photographed by another camera / Other
 Image ratio:
 Number of variations:
 Products to include:
 Product to replace:
 Details that must be visible:
-Details that must not be hidden:
+Details that must not be hidden by phone, hand, arm, mirror frame, or crop:
 ```
 
 ## Existing Image To Edit
@@ -139,7 +139,7 @@ Crop:
 Background:
 Pose:
 Visible product details:
-Details that must not be hidden:
+Details that must not be hidden by phone, hand, arm, mirror frame, or crop:
 Lighting:
 Image ratio:
 Reference sufficiency:
@@ -221,4 +221,3 @@ Visible fit notes:
 Image limitations:
 Risk notes:
 ```
-

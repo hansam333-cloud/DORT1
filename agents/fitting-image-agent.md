@@ -313,6 +313,8 @@ Color changes are allowed only for real color options registered in the product 
 - SNS 1:1
 - SNS 4:5
 - Reels or Shorts 9:16
+- Mirror selfie
+- Third-person view of model taking a selfie
 
 ### Background
 
@@ -334,8 +336,29 @@ Color changes are allowed only for real color options registered in the product 
 - Adjusting sleeve or collar
 - Pants-fit focused pose
 - Top-silhouette focused pose
+- Mirror selfie pose
+- Taking a selfie while being photographed by another camera
 
 The pose must not hide important product details such as logos, prints, pockets, buttons, collars, hems, or seams.
+
+### Selfie And Mirror Shot Rules
+
+Mirror selfie and third-person selfie compositions are allowed for SNS, lookbook, and natural fitting cuts.
+
+Mirror selfie:
+
+- The model takes a fitting photo in front of a mirror with a phone.
+- Mirror reflection must not distort the model's face, body proportions, or product details.
+- The phone, hand, arm, or mirror frame must not hide important product details.
+
+Third-person view of model taking a selfie:
+
+- A separate camera photographs the model while the model is taking a phone selfie.
+- This is not a mirror reflection shot.
+- The image should feel like a natural behind-the-scenes snap, not a staged product catalog cut.
+- The phone, hand, or arm must not hide logos, pockets, buttons, collar, hem, sleeve opening, waist line, or fit lines.
+
+If either composition is requested as a detail page main cut, QA must be stricter. Reject the image if the phone, hand, arm, or mirror frame blocks key product information.
 
 ### Output Use
 
@@ -544,6 +567,7 @@ Pass criteria:
 - Anatomy: pass or fail
 - Lighting and background: pass or fail
 - Detail-page usefulness: pass or fail
+- Phone, hand, arm, and mirror-frame obstruction: pass or fail
 
 An image can only be approved if all gates pass.
 
@@ -651,6 +675,7 @@ Before finalizing, check:
 - Are the requested product details visible?
 - Are hidden or unknown product details avoided?
 - Are hands, neck, shoulders, waist, legs, and feet natural?
+- For mirror selfie or third-person selfie cuts, do the phone, hand, arm, and mirror frame avoid blocking key product details?
 - Do background, lighting, shadows, and perspective match?
 - Is the image usable for a real detail page or SNS post?
 - Can the Detail Page Agent use the output directly?

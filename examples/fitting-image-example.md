@@ -161,3 +161,56 @@ Visible fit notes:
 - Hem length works for daily styling
 ```
 
+## Mirror Shot Variation Example
+
+```text
+Mode: Composition/background/pose variation
+Output use: SNS feed image
+Product ID: DORT-TEE-001-BK
+Model ID: MODEL-SAEM
+Composition: mirror selfie
+Pose: mirror selfie pose
+Background: clean fitting room mirror
+Image ratio: 4:5
+
+Must preserve:
+- Model identity and body proportions
+- Tee color, neckline, sleeve opening, chest fit, and hem length
+
+Must not hide:
+- Collar
+- Shoulder line
+- Sleeve opening
+- Chest fit
+- Hem
+
+Rule:
+The phone, hand, arm, and mirror frame must not block important product details. The mirror reflection must not distort the model's body proportions or product silhouette.
+```
+
+## Third-Person Selfie Capture Example
+
+```text
+Mode: Composition/background/pose variation
+Output use: natural SNS snap
+Product ID: DORT-TEE-001-BK
+Model ID: MODEL-SAEM
+Composition: third-person view of model taking a selfie
+Pose: taking a selfie while being photographed by another camera
+Background: simple indoor studio or showroom
+Image ratio: 4:5
+
+Must preserve:
+- Model identity and body proportions
+- Tee color, neckline, sleeve opening, chest fit, and hem length
+
+Must not hide:
+- Collar
+- Shoulder line
+- Sleeve opening
+- Chest fit
+- Hem
+
+Rule:
+This is not a mirror reflection shot. A separate camera photographs the model while the model is taking a phone selfie. The phone, hand, and arm must not block key product details or fit lines.
+```
