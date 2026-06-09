@@ -46,7 +46,9 @@ Product Planning
 │   ├── contents/
 │   └── styling/
 └── docs/
-    └── workflow.md
+    ├── workflow.md
+    ├── first-product-test-workflow.md
+    └── change-management-workflow.md
 ```
 
 ## Brand Direction
@@ -181,6 +183,16 @@ Product Planning
 → Review Insight
 → Product Planning
 ```
+
+## Change Management Workflow
+
+The repository change workflow is now defined.
+
+File:
+
+- `docs/change-management-workflow.md`
+
+This document explains how DORT1 changes should be planned, confirmed, edited, checked, committed, and pushed.
 
 ## Current Version
 
