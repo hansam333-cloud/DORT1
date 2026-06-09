@@ -12,6 +12,7 @@ DORT-OPS
 ├── Detail Page Agent
 ├── Content Planning Agent
 ├── Styling Agent
+├── Fitting Image Agent
 ├── Customer Response Agent
 └── Review Insight Agent
 ```
@@ -23,6 +24,7 @@ Product Planning
 → Detail Page
 → Content Planning
 → Styling
+→ Fitting Image
 → Customer Response
 → Review Insight
 → Product Planning
@@ -66,9 +68,10 @@ Build order:
 3. Detail Page Agent - Done
 4. Content Planning Agent - Done
 5. Styling Agent - Done
-6. Customer Response Agent - Done
-7. Review Insight Agent - Done
-8. Test workflow with one product - Done
+6. Fitting Image Agent - Done
+7. Customer Response Agent - Done
+8. Review Insight Agent - Done
+9. Test workflow with one product - Done
 
 ## Product Planning Agent
 
@@ -118,9 +121,21 @@ Files:
 
 This agent creates outfit combinations, product set suggestions, detail page styling blocks, content styling ideas, and cross-sell copy.
 
-## Customer Response Agent
+## Fitting Image Agent
 
 The fifth agent is now defined.
+
+Files:
+
+- `agents/fitting-image-agent.md`
+- `templates/fitting-image-request-template.md`
+- `examples/fitting-image-example.md`
+
+This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks. It preserves the registered model's face and body proportions while keeping each product ID visually consistent.
+
+## Customer Response Agent
+
+The sixth agent is now defined.
 
 Files:
 
@@ -132,7 +147,7 @@ This agent creates DORT-tone replies for size questions, fit questions, styling 
 
 ## Review Insight Agent
 
-The sixth agent is now defined.
+The seventh agent is now defined.
 
 Files:
 
@@ -157,6 +172,7 @@ Product Planning
 → Detail Page
 → Content Planning
 → Styling
+→ Fitting Image
 → Customer Response
 → Review Insight
 → Product Planning

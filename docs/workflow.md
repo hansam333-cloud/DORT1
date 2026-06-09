@@ -9,6 +9,7 @@ Product Planning
 → Detail Page
 → Content Planning
 → Styling
+→ Fitting Image
 → Customer Response
 → Review Insight
 → Product Planning
@@ -74,7 +75,22 @@ Main output:
 Styling recommendation set
 ```
 
-## 5. Customer Response Agent
+## 5. Fitting Image Agent
+
+Purpose:
+
+- Generate product-accurate fitting images from product-only photos
+- Preserve the registered model's face and body proportions
+- Preserve product details across detail pages, SNS images, and lookbooks
+- Support composition, background, pose, color-option, and product-replacement requests
+
+Main output:
+
+```text
+Product-accurate fitting image prompt and generation request
+```
+
+## 6. Customer Response Agent
 
 Purpose:
 
@@ -88,7 +104,7 @@ Main output:
 Customer reply draft
 ```
 
-## 6. Review Insight Agent
+## 7. Review Insight Agent
 
 Purpose:
 

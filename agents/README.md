@@ -8,8 +8,9 @@ Planned agents:
 2. Detail Page Agent
 3. Content Planning Agent
 4. Styling Agent
-5. Customer Response Agent
-6. Review Insight Agent
+5. Fitting Image Agent
+6. Customer Response Agent
+7. Review Insight Agent
 
 Each agent document should include:
 
@@ -19,4 +20,3 @@ Each agent document should include:
 - Workflow
 - Prompt template
 - Quality checklist
-
