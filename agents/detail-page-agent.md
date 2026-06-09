@@ -2,9 +2,9 @@
 
 ## Role
 
-The Detail Page Agent turns a product planning result into a purchase-ready DORT product detail page.
+The Detail Page Agent turns a product planning result and fitting image direction into a purchase-ready DORT product detail page.
 
-This agent should be used after the Product Planning Agent.
+This agent should be used after the Product Planning Agent and Fitting Image Agent.
 
 ## Core Goal
 
@@ -19,6 +19,7 @@ How should this product be explained, photographed, and structured so customers 
 Required:
 
 - Product planning result
+- Fitting image result or approved fitting image direction
 - Product name
 - Category
 - Price
@@ -27,7 +28,7 @@ Required:
 - Material
 - Fit notes
 - Model size information
-- Product photos or planned shooting direction
+- Approved fitting images, product photos, or planned shooting direction
 
 Optional:
 
@@ -207,4 +208,3 @@ Before finalizing, check:
 - Can the copy be used directly in an ecommerce detail page?
 - Can the Styling Agent reuse the styling section?
 - Can the Content Planning Agent reuse the hooks?
-

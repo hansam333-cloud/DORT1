@@ -213,5 +213,4 @@ Before finalizing, check:
 - Does the copy focus on body shape and proportion without excluding customers?
 - Are the selling points specific enough for a detail page?
 - Are the risks honest?
-- Can the output be passed directly to the Detail Page Agent?
-
+- Can the output be passed directly to the Fitting Image Agent and Detail Page Agent?

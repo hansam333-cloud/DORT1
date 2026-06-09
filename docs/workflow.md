@@ -6,10 +6,10 @@ DORT-OPS is designed as a loop. Each agent creates information that the next age
 
 ```text
 Product Planning
+→ Fitting Image
 → Detail Page
 → Content Planning
 → Styling
-→ Fitting Image
 → Customer Response
 → Review Insight
 → Product Planning
@@ -32,50 +32,7 @@ Main output:
 Product concept brief
 ```
 
-## 2. Detail Page Agent
-
-Purpose:
-
-- Turn the product brief into a purchase-ready detail page
-- Write fit points
-- Create size guide
-- Plan model shots and detail cuts
-- Build page copy and structure
-
-Main output:
-
-```text
-Detail page draft
-```
-
-## 3. Content Planning Agent
-
-Purpose:
-
-- Convert product value into short-form and feed content
-- Create hooks, scripts, captions, card news structures, and hashtags
-
-Main output:
-
-```text
-Content package
-```
-
-## 4. Styling Agent
-
-Purpose:
-
-- Recommend outfit combinations
-- Increase average order value through set suggestions
-- Create body-type and situation-based styling
-
-Main output:
-
-```text
-Styling recommendation set
-```
-
-## 5. Fitting Image Agent
+## 2. Fitting Image Agent
 
 Purpose:
 
@@ -88,6 +45,49 @@ Main output:
 
 ```text
 Product-accurate fitting image prompt and generation request
+```
+
+## 3. Detail Page Agent
+
+Purpose:
+
+- Turn the product brief and fitting image direction into a purchase-ready detail page
+- Write fit points
+- Create size guide
+- Plan image order and detail cuts
+- Build page copy and structure
+
+Main output:
+
+```text
+Detail page draft
+```
+
+## 4. Content Planning Agent
+
+Purpose:
+
+- Convert product value into short-form and feed content
+- Create hooks, scripts, captions, card news structures, and hashtags
+
+Main output:
+
+```text
+Content package
+```
+
+## 5. Styling Agent
+
+Purpose:
+
+- Recommend outfit combinations
+- Increase average order value through set suggestions
+- Create body-type and situation-based styling
+
+Main output:
+
+```text
+Styling recommendation set
 ```
 
 ## 6. Customer Response Agent

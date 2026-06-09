@@ -9,10 +9,10 @@ This project documents the agents, templates, workflows, and examples used to pl
 ```text
 DORT-OPS
 ├── Product Planning Agent
+├── Fitting Image Agent
 ├── Detail Page Agent
 ├── Content Planning Agent
 ├── Styling Agent
-├── Fitting Image Agent
 ├── Customer Response Agent
 └── Review Insight Agent
 ```
@@ -21,10 +21,10 @@ DORT-OPS
 
 ```text
 Product Planning
+→ Fitting Image
 → Detail Page
 → Content Planning
 → Styling
-→ Fitting Image
 → Customer Response
 → Review Insight
 → Product Planning
@@ -65,10 +65,10 @@ Build order:
 
 1. Brand guide and target customer docs - Done
 2. Product Planning Agent - Done
-3. Detail Page Agent - Done
-4. Content Planning Agent - Done
-5. Styling Agent - Done
-6. Fitting Image Agent - Done
+3. Fitting Image Agent - Done
+4. Detail Page Agent - Done
+5. Content Planning Agent - Done
+6. Styling Agent - Done
 7. Customer Response Agent - Done
 8. Review Insight Agent - Done
 9. Test workflow with one product - Done
@@ -83,11 +83,23 @@ Files:
 - `templates/product-input-template.md`
 - `examples/product-planning-example.md`
 
-This agent evaluates product candidates before they move into detail page writing, content planning, styling, and customer response.
+This agent evaluates product candidates before they move into fitting image generation, detail page writing, content planning, styling, and customer response.
+
+## Fitting Image Agent
+
+The second agent is now defined.
+
+Files:
+
+- `agents/fitting-image-agent.md`
+- `templates/fitting-image-request-template.md`
+- `examples/fitting-image-example.md`
+
+This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks. It preserves the registered model's face and body proportions while keeping each product ID visually consistent.
 
 ## Detail Page Agent
 
-The second agent is now defined.
+The third agent is now defined.
 
 Files:
 
@@ -95,11 +107,11 @@ Files:
 - `templates/detail-page-template.md`
 - `examples/detail-page-example.md`
 
-This agent turns a product planning result into a purchase-ready ecommerce detail page structure with fit points, model fit check, size guide, shooting direction, styling section, and final copy draft.
+This agent turns a product planning result and fitting image direction into a purchase-ready ecommerce detail page structure with fit points, model fit check, size guide, image order, styling section, and final copy draft.
 
 ## Content Planning Agent
 
-The third agent is now defined.
+The fourth agent is now defined.
 
 Files:
 
@@ -111,7 +123,7 @@ This agent turns a product message into short-form videos, feed carousel posts, 
 
 ## Styling Agent
 
-The fourth agent is now defined.
+The fifth agent is now defined.
 
 Files:
 
@@ -120,18 +132,6 @@ Files:
 - `examples/styling-example.md`
 
 This agent creates outfit combinations, product set suggestions, detail page styling blocks, content styling ideas, and cross-sell copy.
-
-## Fitting Image Agent
-
-The fifth agent is now defined.
-
-Files:
-
-- `agents/fitting-image-agent.md`
-- `templates/fitting-image-request-template.md`
-- `examples/fitting-image-example.md`
-
-This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks. It preserves the registered model's face and body proportions while keeping each product ID visually consistent.
 
 ## Customer Response Agent
 
@@ -169,10 +169,10 @@ This document shows how one product moves through the full DORT-OPS loop:
 
 ```text
 Product Planning
+→ Fitting Image
 → Detail Page
 → Content Planning
 → Styling
-→ Fitting Image
 → Customer Response
 → Review Insight
 → Product Planning

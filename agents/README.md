@@ -5,10 +5,10 @@ This folder contains DORT operating agent definitions.
 Planned agents:
 
 1. Product Planning Agent
-2. Detail Page Agent
-3. Content Planning Agent
-4. Styling Agent
-5. Fitting Image Agent
+2. Fitting Image Agent
+3. Detail Page Agent
+4. Content Planning Agent
+5. Styling Agent
 6. Customer Response Agent
 7. Review Insight Agent
 

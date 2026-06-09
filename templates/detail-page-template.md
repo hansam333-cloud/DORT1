@@ -8,6 +8,12 @@ Use this template when asking the Detail Page Agent to create a DORT product det
 Paste the Product Planning Agent result here.
 ```
 
+## Fitting Image Result
+
+```text
+Paste the Fitting Image Agent result, approved fitting image prompts, or generated fitting image references here.
+```
+
 ## Basic Product Info
 
 ```text
@@ -43,6 +49,7 @@ Repeat-purchase reason:
 ## Available Photos
 
 ```text
+Approved fitting image:
 Hero image:
 Full-body front:
 Upper-body close-up:
@@ -64,6 +71,5 @@ What information must the detail page prove?
 ## Request
 
 ```text
-Create a DORT detail page structure, fit points, size guide, shooting direction, styling section, purchase check, and final copy draft.
+Create a DORT detail page structure, fit points, size guide, image order, styling section, purchase check, and final copy draft using the fitting image result as the visual basis.
 ```
-

@@ -4,6 +4,8 @@
 
 The Fitting Image Agent creates product-accurate model fitting images for DORT detail pages, lookbooks, and social content.
 
+This agent should be used after the Product Planning Agent and before the Detail Page Agent.
+
 This agent turns product-only photos and registered model references into natural fitting cuts while preserving:
 
 - The registered model's face
@@ -270,4 +272,3 @@ Before finalizing, check:
 - Is the image usable for a real detail page or SNS post?
 
 If the image fails any product-accuracy check, regenerate or request more product references.
-

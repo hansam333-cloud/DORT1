@@ -29,16 +29,42 @@ Output:
 
 Next:
 
-Pass the product planning result to the Detail Page Agent.
+Pass the product planning result to the Fitting Image Agent.
 
-## Step 2. Detail Page Agent
+## Step 2. Fitting Image Agent
 
 Input:
 
 - Product planning result
+- Product-only photos
+- Registered model face references
+- Registered model full-body references
+- Desired detail-page composition
+- Desired background
+- Desired pose
+
+Output:
+
+- Product-accurate fitting image prompt
+- Required product reference checklist
+- Main fitting cut direction
+- Full-body, upper-body, side, back, and detail cut direction
+- Product detail preservation notes
+- Missing image requests if the product cannot be reproduced accurately
+
+Next:
+
+Pass the fitting image result and approved image direction to the Detail Page Agent.
+
+## Step 3. Detail Page Agent
+
+Input:
+
+- Product planning result
+- Fitting image result
 - Product information
 - Model fit information
-- Product photos or shooting plan
+- Approved fitting images or shooting plan
 
 Output:
 
@@ -54,11 +80,12 @@ Next:
 
 Pass hooks and fit points to the Content Planning Agent.
 
-## Step 3. Content Planning Agent
+## Step 4. Content Planning Agent
 
 Input:
 
 - Product planning result
+- Fitting image result
 - Detail page result
 - Main fit benefit
 - Available photos and videos
@@ -78,11 +105,12 @@ Next:
 
 Pass styling-related content to the Styling Agent.
 
-## Step 4. Styling Agent
+## Step 5. Styling Agent
 
 Input:
 
 - Main product
+- Fitting image result
 - Detail page result
 - Available products
 - Styling target
@@ -100,7 +128,7 @@ Next:
 
 Use styling recommendations in detail pages, feed posts, and customer replies.
 
-## Step 5. Customer Response Agent
+## Step 6. Customer Response Agent
 
 Input:
 
@@ -123,7 +151,7 @@ Next:
 
 Store repeated questions for the Review Insight Agent.
 
-## Step 6. Review Insight Agent
+## Step 7. Review Insight Agent
 
 Input:
 
@@ -152,6 +180,7 @@ Feed insights back into Product Planning Agent and Detail Page Agent.
 
 ```text
 Product Planning
+→ Fitting Image
 → Detail Page
 → Content Planning
 → Styling
@@ -163,4 +192,3 @@ Product Planning
 ## Operating Rule
 
 Every new DORT core product should pass through this workflow before launch or restock.
-
