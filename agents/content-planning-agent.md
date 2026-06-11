@@ -99,7 +99,7 @@ Examples:
 - One top, three outfits
 - Denim / slacks / shorts styling
 - Date look vs daily look
-- Minimal physical-fit outfit
+- Low-tone silhouette outfit
 
 ### 4. Product Detail
 
@@ -120,8 +120,8 @@ Content that builds DORT's identity.
 Examples:
 
 - "좋은 기본티는 몸을 숨기지 않고 정리해준다"
-- "피지컬핏은 붙는 옷이 아니라 균형 잡힌 옷이다"
-- "DORT가 보는 남자 기본핏의 기준"
+- "섹시함은 노출보다 핏에서 나온다"
+- "DØRT가 보는 남자다운 실루엣의 기준"
 
 ## Hook Rules
 

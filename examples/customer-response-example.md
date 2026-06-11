@@ -46,7 +46,7 @@ The customer is similar to the model but slightly heavier and is worried that L 
 ## Short Version
 
 ```text
-고객님 체형 기준으로 L도 가능하지만, 너무 붙는 느낌이 걱정되시면 XL을 추천드립니다. 정핏에 가까운 피지컬핏은 L, 데일리하게 여유 있는 핏은 XL이 좋습니다.
+고객님 체형 기준으로 L도 가능하지만, 너무 붙는 느낌이 걱정되시면 XL을 추천드립니다. 정핏에 가까운 애슬레틱핏은 L, 데일리하게 여유 있는 핏은 XL이 좋습니다.
 ```
 
 ## Detailed Version
@@ -54,7 +54,7 @@ The customer is similar to the model but slightly heavier and is worried that L 
 ```text
 고객님 체형 기준으로는 L과 XL 모두 가능성이 있습니다.
 
-L은 어깨와 팔 라인이 더 자연스럽게 살아나는 정핏에 가까운 피지컬핏으로 보시면 되고, XL은 몸통과 팔 쪽에 조금 더 여유가 생겨 데일리하게 입기 편한 핏입니다.
+L은 어깨와 팔 라인이 더 자연스럽게 살아나는 정핏에 가까운 애슬레틱핏으로 보시면 되고, XL은 몸통과 팔 쪽에 조금 더 여유가 생겨 데일리하게 입기 편한 핏입니다.
 
 이 상품은 과하게 조이는 머슬핏이 아니라 상체 라인은 살리고 전체 실루엣은 깔끔하게 정리하는 애슬레틱핏이라, 붙는 느낌이 부담스러우신 편이면 XL 쪽이 더 만족도가 높을 수 있습니다.
 ```

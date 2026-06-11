@@ -1,6 +1,6 @@
 # DORT-OPS
 
-DORT-OPS is the operating system for DORT, a men's fashion brand focused on physical-fit dailywear for men who want their body shape and proportions to look better in everyday outfits.
+DORT-OPS is the operating system for DØRT, a men's fashion brand focused on restrained masculinity, sharp physical silhouettes, and sensuality expressed through fit rather than exposure.
 
 This project documents the agents, templates, workflows, and examples used to plan products, create detail pages, produce content, style outfits, respond to customers, and improve products from reviews.
 
@@ -55,11 +55,11 @@ Product Planning
 
 ## Brand Direction
 
-DORT is not a general men's clothing mall. It is built around clothes that make athletic or better-than-average body types look balanced in everyday life.
+DØRT is not a general men's clothing mall. It is built around clothes that make athletic or better-than-average body types look sharper, more balanced, and quietly magnetic in everyday life.
 
 Core fit principle:
 
-> Shoulders wider, arms naturally filled, waist cleaner, proportions sharper.
+> Restrained masculinity, sharp physical silhouette, sensuality through fit rather than exposure.
 
 ## Current Status
 

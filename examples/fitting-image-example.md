@@ -20,8 +20,8 @@ Top size: L
 Bottom size: M-L
 Shoulder width: broad
 Chest: athletic
-Waist: clean but not slim
-Preferred fit: semi-over top with clean straight or wide pants
+Waist: sharp but not slim
+Preferred fit: semi-over top with structured straight or wide pants
 Face reference images: front, 45-degree, side, natural expression
 Full-body reference images: front, side, back, natural standing
 Angle references: front, side, 45-degree
@@ -32,7 +32,7 @@ Proportions that must not change: shoulder width, arm length, leg length, waist 
 
 ```text
 Product ID: DORT-TEE-001-BK
-Product name: Physical-Fit Cooling Muscle Tee
+Product name: Sharp Silhouette Cooling Muscle Tee
 SKU: DORT-TEE-001
 Category: Short sleeve tee
 Color: Black
@@ -63,10 +63,10 @@ Reason: Front, back, side, and key detail references are available. Requested fr
 ```text
 Preserve:
 - Black cooling cotton blend texture
-- Clean crew neck shape
+- Simple crew neck shape
 - Shoulder-enhancing sleeve angle
 - Athletic fit through chest and arms
-- Relaxed but clean body line
+- Relaxed but sharp body line
 - Original hem length
 - No added logo or print
 
@@ -91,7 +91,7 @@ Fit conflict handling: Product intention wins by default
 Composition: full-body front
 Camera height: eye-level
 Lens feel: natural ecommerce lens, no wide distortion
-Crop: full body with clean margin
+Crop: full body with clear margin
 Background: neutral gray studio background
 Pose: natural standing pose
 Visible product details: collar, shoulder line, sleeve opening, chest fit, hem
@@ -110,7 +110,7 @@ Create a realistic men's fashion ecommerce fitting image for DORT.
 Use MODEL-SAEM as the model identity. Preserve the model's face, body shape, shoulder width, arm length, leg length, waist line, and overall proportions from the registered references.
 
 Product ID: DORT-TEE-001-BK
-Product name: Physical-Fit Cooling Muscle Tee
+Product name: Sharp Silhouette Cooling Muscle Tee
 Category: Short sleeve tee
 Color: Black
 Size: L
@@ -121,7 +121,7 @@ Requested length: Product-intended
 
 Create a full-body front fitting image in a neutral gray studio background, 4:5 ratio, eye-level camera, natural standing pose.
 
-Preserve the product exactly. Keep the black color, clean crew neck, sleeve opening, shoulder-enhancing fit, chest fit, body line, hem length, and fabric texture. Do not add logos, prints, pockets, seams, or design elements that are not in the product references.
+Preserve the product exactly. Keep the black color, simple crew neck, sleeve opening, shoulder-enhancing fit, chest fit, body line, hem length, and fabric texture. Do not add logos, prints, pockets, seams, or design elements that are not in the product references.
 
 The image should look like a real men's clothing detail-page fitting photo. The garment fit, fabric wrinkles, shadows, lighting, body interaction, and perspective must look natural.
 ```
@@ -165,7 +165,7 @@ Detail cut recommendations:
 Visible fit notes:
 - Shoulder line looks wider
 - Sleeve opening fills the arm naturally
-- Body line stays clean without tight compression
+- Body line stays sharp without tight compression
 - Hem length works for daily styling
 ```
 
@@ -178,7 +178,7 @@ Product ID: DORT-TEE-001-BK
 Model ID: MODEL-SAEM
 Composition: mirror selfie
 Pose: mirror selfie pose
-Background: clean fitting room mirror
+Background: plain fitting room mirror
 Image ratio: 4:5
 
 Must preserve:

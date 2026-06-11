@@ -65,7 +65,7 @@ The product's main fit value is being understood by customers. Reviews mention s
 Main pattern:
 
 ```text
-L = cleaner physical fit
+L = sharper athletic fit
 XL = relaxed daily fit
 ```
 
@@ -115,7 +115,7 @@ Create saved replies for:
 Recommended size reply:
 
 ```text
-정핏에 가까운 피지컬핏을 원하시면 L, 데일리하게 여유 있는 착용감을 원하시면 XL을 추천드립니다.
+정핏에 가까운 애슬레틱핏을 원하시면 L, 데일리하게 여유 있는 착용감을 원하시면 XL을 추천드립니다.
 ```
 
 ## Content Improvements

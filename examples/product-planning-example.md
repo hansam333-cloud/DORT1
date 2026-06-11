@@ -28,7 +28,7 @@ Worn size: L
 Fit notes: Shoulder and chest look defined, waist does not look bulky, length lands around the hip line.
 
 What body/proportion benefit does this product have?
-It makes the upper body look wider and cleaner without looking like gym wear.
+It makes the upper body look wider and sharper without looking like gym wear.
 
 What customer problem does it solve?
 Basic t-shirts are often too boxy, too tight, or too plain to show an athletic body naturally.
@@ -37,7 +37,7 @@ What makes it different from a generic product?
 It is positioned around shoulder, arm, chest, and waist balance instead of only color or material.
 
 What styling situation is it best for?
-Daily outfit, date outfit, casual summer look, clean minimal outfit.
+Daily outfit, date outfit, casual summer look, low-tone contemporary outfit.
 ```
 
 ## Output
@@ -46,7 +46,7 @@ Daily outfit, date outfit, casual summer look, clean minimal outfit.
 
 ## Product Summary
 
-This is an athletic-fit short sleeve t-shirt designed as a daily basic for men who want their upper body to look natural and defined. The strongest value is not the item itself, but the way it can make shoulder, arm, chest, and waist balance look cleaner in everyday styling.
+This is an athletic-fit short sleeve t-shirt designed as a daily basic for men who want their upper body to look natural and defined. The strongest value is not the item itself, but the way it can make shoulder, arm, chest, and waist balance look sharper in everyday styling.
 
 ## DORT Fit Score
 
@@ -56,18 +56,18 @@ This is an athletic-fit short sleeve t-shirt designed as a daily basic for men w
 
 Reason:
 
-The product has a clear DORT reason. It directly supports the brand's physical-fit direction and can become a repeat-purchase basic item.
+The product has a clear DORT reason. It supports the brand's sharp physical silhouette direction and can become a repeat-purchase basic item.
 
 ## Recommended Positioning
 
 ```text
-A daily physical-fit tee that makes the upper body look cleaner without feeling like gym wear.
+A daily athletic-fit tee that makes the upper body look sharper without feeling like gym wear.
 ```
 
 Korean positioning:
 
 ```text
-운동한 체형은 자연스럽게 살리고, 과하게 붙는 느낌은 줄인 데일리 피지컬핏 반팔티.
+절제된 남성미와 선명한 상체 실루엣이 자연스럽게 드러나는 데일리 반팔티.
 ```
 
 ## Target Customer
@@ -75,7 +75,7 @@ Korean positioning:
 - Men who usually wear L or 105 tops
 - Customers who want their shoulders and arms to look better
 - Customers who dislike overly tight gym-style tops
-- Customers looking for a clean daily t-shirt with a better body line
+- Customers looking for a refined daily t-shirt with a better body line
 - Customers who want a simple top that works with denim, slacks, and shorts
 
 ## Product Name Candidates
@@ -83,7 +83,7 @@ Korean positioning:
 1. `[피지컬핏] 쿨링 머슬 반팔티`
 2. `[상체밸런스] 데일리 머슬 반팔티`
 3. `[어깨라인 보정] 쿨터치 반팔티`
-4. `[허리정리핏] 미니멀 머슬 티셔츠`
+4. `[허리정리핏] 로우톤 머슬 티셔츠`
 5. `[데일리 피지컬] 소프트 반팔티`
 
 Recommended:
@@ -95,7 +95,7 @@ Recommended:
 ## Key Selling Points
 
 - Dailywear-friendly muscle fit
-- Clean upper-body balance
+- Sharp upper-body balance
 - Soft touch for repeated daily wear
 - Easy styling with denim, slacks, and shorts
 - Four basic colors for repeat purchase
@@ -106,7 +106,7 @@ Recommended:
 - Sleeve fit makes the arm line look naturally filled
 - Chest has shape without feeling too tight
 - Waist does not look bulky
-- Length supports a clean full-body proportion
+- Length supports a sharp full-body proportion
 
 ## Risk Points
 
@@ -154,8 +154,8 @@ Required shots:
 
 Best combinations:
 
-- Wide denim for a clean daily physical look
-- Semi-wide slacks for minimal styling
+- Wide denim for a refined daily physical look
+- Semi-wide slacks for contemporary styling
 - Bermuda shorts for summer casual styling
 
 Styling copy:
@@ -168,4 +168,4 @@ Styling copy:
 
 Proceed.
 
-This product should be used as DORT's first core basic item because it clearly communicates the brand's physical-fit positioning and can be reused across detail pages, short-form content, feed content, and styling recommendations.
+This product should be used as DORT's first core basic item because it clearly communicates the brand's sharp physical silhouette positioning and can be reused across detail pages, short-form content, feed content, and styling recommendations.

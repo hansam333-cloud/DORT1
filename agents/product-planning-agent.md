@@ -58,7 +58,7 @@ The agent must produce:
 Score the product from 1 to 5.
 
 ```text
-5 = Strong DORT product. Clear physical-fit value and strong selling angle.
+5 = Strong DORT product. Clear silhouette, body-balance, or restrained masculine appeal with a strong selling angle.
 4 = Good DORT product. Needs minor positioning.
 3 = Usable product. Needs stronger styling or copy.
 2 = Weak fit. Could be sold only as a supporting item.
@@ -67,18 +67,20 @@ Score the product from 1 to 5.
 
 ## Evaluation Criteria
 
-### 1. Physical-Fit Value
+### 1. Silhouette And Masculine Appeal
 
-Check whether the product makes the customer's body shape or proportions look better.
+Check whether the product makes the customer's body shape, proportions, or restrained masculine mood look better.
 
 Look for:
 
 - Shoulder line improvement
 - Arm line improvement
 - Chest or upper-body balance
-- Cleaner waist shape
+- Sharper waist shape
 - Better leg proportion
 - Better full-body silhouette
+- Restrained sensuality through fit rather than exposure
+- Low-tone, masculine styling potential
 
 ### 2. Dailywear Usability
 
@@ -144,7 +146,7 @@ Examples:
 
 - `[피지컬핏] 쿨링 머슬 반팔티`
 - `[어깨라인 보정] 세미크롭 링거 티셔츠`
-- `[허리정리핏] 미니멀 카라 니트`
+- `[허리정리핏] 로우톤 카라 니트`
 - `[롱레그핏] 세미와이드 데님`
 - `[상체밸런스] 하프집업 카라 니트`
 

@@ -2,14 +2,14 @@
 
 ## Primary Customer
 
-DORT's primary customer is a man who has an athletic or better-than-average body type and wants clothes that make that body look natural in everyday outfits.
+DØRT's primary customer is a man who has an athletic or better-than-average body type and wants clothes that make his silhouette look sharp, restrained, and naturally attractive in everyday outfits.
 
 Core profile:
 
 - Age: mainly 20s to early 30s
 - Body: average-athletic to athletic
 - Shopping concern: fit, length, shoulder line, arm fit, body proportion
-- Style preference: minimal, clean, masculine, dailywear
+- Style preference: low-tone contemporary, refined, masculine, restrained sexy, dailywear
 
 ## Representative Persona
 
@@ -18,7 +18,7 @@ Name: DORT Core Customer
 Height: 183cm
 Body: athletic
 Top size: L or 105
-Main need: clothes that show the body naturally without looking too tight
+Main need: clothes that show the body naturally without looking too tight, exposed, or overdone
 Pain point: regular tops are too short, too boxy, or too tight in the wrong areas
 ```
 
@@ -26,10 +26,11 @@ Pain point: regular tops are too short, too boxy, or too tight in the wrong area
 
 - Wants shoulders to look wider
 - Wants arms to look naturally filled
-- Wants a cleaner waist line
+- Wants a sharper waist line
 - Wants tops that do not look short
 - Wants outfits that make legs look longer
 - Wants to look good without looking like he is trying too hard
+- Wants masculine sensuality to come from fit, silhouette, and mood rather than exposure
 
 ## Common Purchase Anxiety
 
@@ -37,7 +38,8 @@ Pain point: regular tops are too short, too boxy, or too tight in the wrong area
 - "Will the shoulder line look narrow?"
 - "Will it be too tight around the chest or arms?"
 - "Will it make my waist look bulky?"
-- "Will it look like gym wear instead of dailywear?"
+- "Will it look like gym wear instead of restrained dailywear?"
+- "Will it feel too exposed or too obvious?"
 - "What size should I buy if I am 183cm and 78kg?"
 
 ## DORT Response Strategy
@@ -58,6 +60,6 @@ They may be:
 
 - Slim-average body type
 - Interested in shoulder-enhancing and proportion-improving outfits
-- Looking for clean Korean men's dailywear
+- Looking for refined Korean men's dailywear
 
-For this group, language should focus on "balanced fit" rather than "muscular fit."
+For this group, language should focus on "balanced fit" and "sharp silhouette" rather than "muscular fit."

@@ -10,15 +10,15 @@ Product intended fit: Athletic fit
 Product registration record: DORT-TEE-001-BK registration record, GREEN
 Season: Spring / Summer / Early fall
 Main body/proportion benefit:
-Upper body looks cleaner and more defined without feeling like gym wear.
+Upper body looks sharper and more defined without feeling like gym wear.
 
 Available products:
 Bottoms: Long wide denim, semi-wide black slacks, bermuda cargo shorts
-Shoes: Minimal sneakers, black loafers
-Accessories: Minimal belt
+Shoes: Low-profile shoes, black loafers
+Accessories: Matte leather accessory
 
 Styling target:
-Athletic body type, clean dailywear, not overly tight.
+Athletic body type, refined dailywear, not overly tight.
 
 Situation:
 Daily outfit, date outfit, summer casual outfit.
@@ -37,7 +37,7 @@ Product detail page styling block and cross-sell set suggestions.
 상체는 탄탄하게, 전체 실루엣은 깔끔하게 정리하는 데일리 피지컬 스타일링.
 ```
 
-The main product already creates upper-body balance, so the styling should use bottoms that keep the lower-body silhouette clean and relaxed.
+The main product already creates upper-body balance, so the styling should use bottoms that keep the lower-body silhouette sharp and relaxed.
 
 ## Main Product
 
@@ -59,8 +59,8 @@ Items:
 
 - `[피지컬핏] 쿨링 머슬 반팔티` in Black
 - Long wide denim
-- Minimal sneakers
-- Minimal belt
+- Low-profile shoes
+- Matte leather accessory
 
 Body/proportion benefit:
 
@@ -74,7 +74,7 @@ Best for:
 - Cafe look
 - Casual date
 
-### LOOK 02. Minimal Date Look
+### LOOK 02. Contemporary Date Look
 
 Items:
 
@@ -92,7 +92,7 @@ Best for:
 
 - Date
 - Dinner
-- Clean weekend look
+- Refined weekend look
 
 ### LOOK 03. Summer Casual Look
 
@@ -100,12 +100,12 @@ Items:
 
 - `[피지컬핏] 쿨링 머슬 반팔티` in Navy or White
 - Bermuda cargo shorts
-- Minimal sneakers
+- Low-profile shoes
 
 Body/proportion benefit:
 
 ```text
-상체의 피지컬핏은 유지하면서, 버뮤다 쇼츠로 여름에 부담 없는 캐주얼 밸런스를 만듭니다.
+상체의 선명한 실루엣은 유지하면서, 버뮤다 쇼츠로 여름에 부담 없는 캐주얼 밸런스를 만듭니다.
 ```
 
 Best for:
@@ -119,7 +119,7 @@ Best for:
 ### Set 01. Daily Physical Set
 
 ```text
-피지컬핏 반팔티 + 롱 와이드 데님 + 미니멀 벨트
+피지컬핏 반팔티 + 롱 와이드 데님 + 매트 레더 액세서리
 ```
 
 Placement:
@@ -128,7 +128,7 @@ Placement:
 상세페이지 하단: 이 핏을 완성하는 하의
 ```
 
-### Set 02. Minimal Date Set
+### Set 02. Contemporary Date Set
 
 ```text
 피지컬핏 반팔티 + 세미와이드 블랙 슬랙스 + 블랙 로퍼
@@ -143,7 +143,7 @@ Placement:
 ### Set 03. Summer Casual Set
 
 ```text
-피지컬핏 반팔티 + 버뮤다 카고 쇼츠 + 미니멀 스니커즈
+피지컬핏 반팔티 + 버뮤다 카고 쇼츠 + 로우프로파일 슈즈
 ```
 
 Placement:
@@ -163,7 +163,7 @@ Placement:
 
 상체는 탄탄하게, 전체 실루엣은 여유 있게 정리되는 가장 기본적인 DORT 조합입니다.
 
-### LOOK 02. 미니멀 데이트룩
+### LOOK 02. 컨템포러리 데이트룩
 
 쿨링 머슬 반팔티 + 세미와이드 블랙 슬랙스
 
@@ -181,7 +181,7 @@ Placement:
 1. One tee, three outfits
 2. Daily look vs date look comparison
 3. Denim / slacks / shorts fit comparison
-4. Why wide denim works with physical-fit tops
+4. Why wide denim works with sharp silhouette tops
 5. How to make a muscle-fit tee feel more daily
 
 ## Cross-Sell Copy
@@ -210,8 +210,8 @@ Placement:
 
 ## Missing Products to Source
 
-- Clean long wide denim
+- Refined long wide denim
 - Semi-wide black slacks
-- Minimal leather belt
+- Matte leather accessory
 - Basic sneakers
 - Black loafers

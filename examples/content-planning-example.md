@@ -6,7 +6,7 @@
 Product name: [피지컬핏] 쿨링 머슬 반팔티
 Product category: Short sleeve t-shirt
 Product registration record: DORT-TEE-001-BK registration record, GREEN
-Main fit benefit: Upper body looks cleaner and more defined without feeling like gym wear.
+Main fit benefit: Upper body looks sharper and more defined without feeling like gym wear.
 Main material/detail benefit: Soft cotton-blend fabric with slight stretch.
 Recommended styling: Wide denim, semi-wide slacks, bermuda shorts.
 Expected selling price: 37,900 KRW
@@ -30,7 +30,7 @@ Customers worry that muscle-fit t-shirts are too tight, too gym-like, or make th
 ## Core Content Angle
 
 ```text
-붙는 머슬핏이 부담스러운 남자를 위한 데일리 피지컬핏.
+붙는 머슬핏이 부담스러운 남자를 위한 선명한 데일리 실루엣.
 ```
 
 The product should be introduced as a daily t-shirt that makes the upper body look better without looking too tight or gym-focused.
@@ -43,7 +43,7 @@ The product should be introduced as a daily t-shirt that makes the upper body lo
 4. 붙는 머슬핏이 부담스러울 때
 5. 몸 좋아 보이는 기본티는 따로 있습니다
 6. 티셔츠 하나로 상체 밸런스가 달라지는 이유
-7. 데일리로 입기 좋은 피지컬핏 기준
+7. 데일리로 입기 좋은 남자다운 실루엣 기준
 8. 헬스복 같지 않은 머슬핏을 찾는다면
 
 ## Short-Form Video Ideas
@@ -63,7 +63,7 @@ Visuals:
 CTA:
 
 ```text
-DORT 피지컬핏 반팔티
+DORT 애슬레틱핏 반팔티
 ```
 
 ### 2. 붙는 머슬핏이 부담스러울 때
@@ -99,7 +99,7 @@ Visuals:
 CTA:
 
 ```text
-하나로 돌려 입는 데일리 피지컬핏.
+하나로 돌려 입는 선명한 데일리 실루엣.
 ```
 
 ## Short-Form Script
@@ -121,7 +121,7 @@ Script:
 너무 조이면 데일리로 입기 애매하죠.
 
 8-15s
-DORT 피지컬핏은
+DØRT의 실루엣은
 어깨와 팔 라인은 자연스럽게 살리고
 몸통은 부해 보이지 않게 잡았습니다.
 
@@ -142,7 +142,7 @@ On-screen captions:
 어깨는 넓게
 팔은 자연스럽게
 허리는 깔끔하게
-데일리 피지컬핏
+데일리 애슬레틱핏
 ```
 
 ## Feed Carousel Ideas
@@ -156,7 +156,7 @@ Slides:
 3. 팔통이 너무 넓으면 팔 라인이 죽습니다
 4. 허리가 퍼지면 몸이 부해 보입니다
 5. DORT는 어깨, 팔, 허리 밸런스를 봅니다
-6. 데일리로 입는 피지컬핏
+6. 데일리로 입는 선명한 실루엣
 7. `[피지컬핏] 쿨링 머슬 반팔티`
 
 ### Carousel 2. 헬스복 같지 않은 머슬핏
@@ -168,7 +168,7 @@ Slides:
 3. 너무 크면 체형이 묻힙니다
 4. 중요한 건 붙는 정도가 아니라 균형입니다
 5. 어깨와 팔은 살리고, 몸통은 정리하는 핏
-6. DORT 피지컬핏
+6. DØRT 실루엣
 7. 상품 페이지에서 자세히 보기
 
 ## Feed Slide Copy
@@ -208,14 +208,14 @@ Slide 7
 팔은 자연스럽게,
 허리는 부해 보이지 않게.
 
-DORT가 생각하는 데일리 피지컬핏입니다.
+DØRT가 생각하는 데일리 애슬레틱 실루엣입니다.
 ```
 
 ### Caption 2
 
 ```text
 붙는 머슬핏이 부담스럽다면,
-데일리로 입을 수 있는 피지컬핏을 기준으로 보세요.
+데일리로 입을 수 있는 선명한 실루엣을 기준으로 보세요.
 
 운동한 체형은 살리고
 전체 실루엣은 깔끔하게 정리했습니다.
@@ -224,7 +224,7 @@ DORT가 생각하는 데일리 피지컬핏입니다.
 ## Hashtags
 
 ```text
-#DORT #도르트 #피지컬핏 #남자반팔티 #남자기본티 #남자데일리룩 #남자코디 #미니멀룩 #머슬핏반팔 #남자쇼핑몰
+#DORT #도르트 #피지컬핏 #남자반팔티 #남자기본티 #남자데일리룩 #남자코디 #컨템포러리룩 #머슬핏반팔 #남자쇼핑몰
 ```
 
 ## Shooting Checklist
@@ -249,7 +249,7 @@ DORT가 생각하는 데일리 피지컬핏입니다.
 | 4 | Reel: 티셔츠 하나로 3가지 코디 | Styling |
 | 5 | Feed: 헬스복 같지 않은 머슬핏 | Objection handling |
 | 6 | Short: 원단 터치와 디테일컷 | Quality proof |
-| 7 | Feed: DORT 피지컬핏 기준 | Brand identity |
+| 7 | Feed: DØRT 실루엣 기준 | Brand identity |
 
 ## Reuse Map
 

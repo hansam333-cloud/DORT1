@@ -68,34 +68,34 @@ Every styling recommendation should answer:
 
 ### 1. Upper-Body Balance
 
-Use tops that make the shoulder, arm, chest, and waist line look cleaner.
+Use tops that make the shoulder, arm, chest, and waist line look sharper.
 
 Good pairings:
 
 - Physical-fit tee + wide denim
 - Collar knit + semi-wide slacks
-- Short sleeve shirt + clean straight pants
+- Short sleeve shirt + structured straight pants
 
 ### 2. Lower-Body Proportion
 
-Use pants that make the full-body silhouette look longer and cleaner.
+Use pants that make the full-body silhouette look longer and sharper.
 
 Good pairings:
 
 - Wide denim
 - Semi-wide slacks
 - Straight denim
-- Bermuda shorts with clean volume
+- Bermuda shorts with controlled volume
 
 ### 3. Fit Contrast
 
-Balance a fitted top with a relaxed bottom, or a structured top with clean straight pants.
+Balance a fitted top with a relaxed bottom, or a structured top with straight pants.
 
 Examples:
 
 - Athletic-fit top + wide denim
 - Cropped jacket + straight pants
-- Relaxed shirt + clean tapered pants
+- Relaxed shirt + structured tapered pants
 
 ### 4. Dailywear Realism
 
@@ -114,9 +114,9 @@ Use these categories:
 
 ```text
 Daily Physical Look
-Minimal Date Look
+Contemporary Date Look
 Summer Casual Look
-Clean Weekend Look
+Refined Weekend Look
 Smart Casual Look
 ```
 

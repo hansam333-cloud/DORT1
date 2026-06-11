@@ -20,7 +20,7 @@ Worn size: L
 Fit notes: Shoulder and chest look defined, waist does not look bulky, length lands around the hip line.
 
 Main body/proportion benefit:
-Upper body looks wider and cleaner without feeling like gym wear.
+Upper body looks wider and sharper without feeling like gym wear.
 
 Customer anxiety:
 Customers may worry that the shirt is too tight, too short, or too gym-like.
@@ -39,7 +39,7 @@ Customers may worry that the shirt is too tight, too short, or too gym-like.
 ## One-Line Positioning
 
 ```text
-운동한 체형은 자연스럽게 살리고, 과하게 붙는 느낌은 줄인 데일리 피지컬핏 반팔티.
+절제된 남성미와 선명한 상체 실루엣이 자연스럽게 드러나는 데일리 반팔티.
 ```
 
 ## Top Purchase Hooks
@@ -52,7 +52,7 @@ Customers may worry that the shirt is too tight, too short, or too gym-like.
 
 `[피지컬핏] 쿨링 머슬 반팔티`는 운동한 체형을 자연스럽게 보여주기 위한 데일리 티셔츠입니다. 어깨와 가슴 라인은 살리고, 허리와 몸통은 과하게 퍼지지 않도록 잡아 깔끔한 상체 밸런스를 만듭니다.
 
-과하게 붙는 헬스핏이 부담스러운 고객에게 적합하며, 일상 코디에서도 편하게 입을 수 있는 피지컬핏 기본 아이템입니다.
+과하게 붙는 헬스핏이 부담스러운 고객에게 적합하며, 일상 코디에서도 선명한 실루엣을 자연스럽게 보여주는 기본 아이템입니다.
 
 ## DORT FIT POINT
 
@@ -92,10 +92,10 @@ MODEL 183cm / 78kg / L 착용
 
 | Body Type / Usual Size | Recommended Size | Fit Feeling |
 |---|---:|---|
-| Slim-average / 95-100 | M | clean regular fit |
-| Average / 100-105 | L | relaxed physical fit |
+| Slim-average / 95-100 | M | balanced regular fit |
+| Average / 100-105 | L | relaxed athletic fit |
 | Athletic / 105 | L | DORT recommended fit |
-| Athletic or broad upper body / 105-110 | XL | comfortable physical fit |
+| Athletic or broad upper body / 105-110 | XL | comfortable athletic fit |
 
 ## Detail Cut Plan
 
@@ -133,7 +133,7 @@ Season: Spring / Summer / Early fall
 
 상체는 탄탄하게, 전체 비율은 깔끔하게 잡아주는 기본 조합입니다.
 
-### LOOK 02. 미니멀 데이트룩
+### LOOK 02. 컨템포러리 데이트룩
 
 쿨링 머슬 반팔티 + 세미와이드 슬랙스
 
@@ -174,7 +174,7 @@ Season: Spring / Summer / Early fall
 
 ## Final Copy Draft
 
-운동한 체형을 자연스럽게 보여주는 데일리 피지컬핏 반팔티입니다.
+절제된 남성미와 선명한 상체 실루엣이 자연스럽게 드러나는 데일리 반팔티입니다.
 
 어깨와 가슴 라인은 살리고, 허리와 몸통은 부해 보이지 않도록 잡았습니다. 과하게 붙는 헬스핏이 부담스러운 고객도 일상에서 편하게 입을 수 있는 균형감 있는 핏입니다.
 

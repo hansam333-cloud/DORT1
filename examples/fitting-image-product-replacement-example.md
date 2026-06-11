@@ -14,7 +14,7 @@ Goal: Keep the same model, pose, background, lighting, and camera while replacin
 
 ```text
 Product ID: DORT-SHIRT-003-WH
-Product name: Clean Semi-Over Short Sleeve Shirt
+Product name: Refined Semi-Over Short Sleeve Shirt
 Category: Short sleeve shirt
 Color: White
 Material: cotton nylon blend
