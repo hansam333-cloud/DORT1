@@ -20,7 +20,7 @@ Reference link:
 Material:
 Colors:
 Sizes:
-Fit:
+Initial fit information:
 Thickness:
 Stretch:
 Transparency:
@@ -62,4 +62,3 @@ What should DORT avoid?
 Evaluate whether this product fits DORT.
 Create product positioning, product name candidates, selling points, risks, and detail page direction.
 ```
-

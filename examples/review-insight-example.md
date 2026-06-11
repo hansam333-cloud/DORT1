@@ -7,7 +7,8 @@ Product name: [피지컬핏] 쿨링 머슬 반팔티
 Category: Short sleeve t-shirt
 Selling period: First launch week
 Available sizes: M, L, XL
-Product fit: Semi-muscle fit
+Product intended fit: Athletic fit
+Product registration record: DORT-TEE-001-BK registration record, GREEN
 
 Sample reviews:
 1. 어깨랑 팔 핏은 좋은데 생각보다 몸통이 여유 있어요.
@@ -72,7 +73,7 @@ Recommended update:
 
 - Add a size comparison block between L and XL.
 - Add model fit notes for both regular and relaxed fit preference.
-- Add customer-facing wording that the product is semi-physical fit, not tight compression fit.
+- Add customer-facing wording that the product is athletic fit, not tight compression fit.
 
 ## Fabric and Quality Insights
 
@@ -99,7 +100,7 @@ Add:
 Update FIT POINT:
 
 ```text
-몸통을 과하게 조이는 핏이 아니라, 상체 라인은 살리고 데일리하게 입기 좋은 여유를 남긴 세미 피지컬핏입니다.
+몸통을 과하게 조이는 핏이 아니라, 상체 라인은 살리고 데일리하게 입기 좋은 여유를 남긴 애슬레틱핏입니다.
 ```
 
 ## Customer Response Improvements
@@ -160,4 +161,3 @@ Send findings to:
 - Washing test data
 - Review photos
 - Product page conversion data
-

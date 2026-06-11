@@ -11,7 +11,8 @@ Selling period:
 Sales volume:
 Return/exchange volume:
 Available sizes:
-Product fit:
+Product intended fit:
+Product registration record:
 Detail page result:
 ```
 
@@ -54,4 +55,3 @@ Product page concerns:
 ```text
 Analyze reviews and customer feedback. Find positive signals, negative signals, size and fit insights, detail page improvements, customer response improvements, content improvements, product improvements, and priority actions.
 ```
-

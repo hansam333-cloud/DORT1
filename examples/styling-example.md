@@ -6,7 +6,8 @@
 Product name: [피지컬핏] 쿨링 머슬 반팔티
 Category: Short sleeve t-shirt
 Colors: Black, White, Charcoal, Navy
-Fit: Semi-muscle fit
+Product intended fit: Athletic fit
+Product registration record: DORT-TEE-001-BK registration record, GREEN
 Season: Spring / Summer / Early fall
 Main body/proportion benefit:
 Upper body looks cleaner and more defined without feeling like gym wear.
@@ -214,4 +215,3 @@ Placement:
 - Minimal leather belt
 - Basic sneakers
 - Black loafers
-

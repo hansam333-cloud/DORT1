@@ -8,6 +8,7 @@ Use this template when asking the Content Planning Agent to create content ideas
 Product name:
 Product category:
 Product planning result:
+Product registration record:
 Detail page result:
 Main fit benefit:
 Main material/detail benefit:
@@ -66,4 +67,3 @@ Reference:
 ```text
 Create hooks, short-form video ideas, one full script, feed carousel copy, caption options, hashtags, a shooting checklist, and a 7-day content plan.
 ```
-

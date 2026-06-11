@@ -9,6 +9,7 @@ This project documents the agents, templates, workflows, and examples used to pl
 ```text
 DORT-OPS
 ├── Product Planning Agent
+├── Product Registration Agent
 ├── Fitting Image Agent
 ├── Detail Page Agent
 ├── Content Planning Agent
@@ -21,6 +22,7 @@ DORT-OPS
 
 ```text
 Product Planning
+→ Product Registration
 → Fitting Image
 → Detail Page
 → Content Planning
@@ -67,13 +69,14 @@ Build order:
 
 1. Brand guide and target customer docs - Done
 2. Product Planning Agent - Done
-3. Fitting Image Agent - Done
-4. Detail Page Agent - Done
-5. Content Planning Agent - Done
-6. Styling Agent - Done
-7. Customer Response Agent - Done
-8. Review Insight Agent - Done
-9. Test workflow with one product - Done
+3. Product Registration Agent - Done
+4. Fitting Image Agent - Done
+5. Detail Page Agent - Done
+6. Content Planning Agent - Done
+7. Styling Agent - Done
+8. Customer Response Agent - Done
+9. Review Insight Agent - Done
+10. Test workflow with one product - Done
 
 ## Product Planning Agent
 
@@ -85,27 +88,37 @@ Files:
 - `templates/product-input-template.md`
 - `examples/product-planning-example.md`
 
-This agent evaluates product candidates before they move into fitting image generation, detail page writing, content planning, styling, and customer response.
+This agent evaluates product candidates before they move into product registration, fitting image generation, detail page writing, content planning, styling, and customer response.
+
+## Product Registration Agent
+
+The second agent is now defined.
+
+Files:
+
+- `agents/product-registration-agent.md`
+- `templates/product-library-record-template.md`
+
+This agent registers product lock values before fitting image generation. It separates product intended fit from requested image fit, preserves product-specific details, checks reference sufficiency, and decides safe generation angles.
 
 ## Fitting Image Agent
 
-The second agent is now defined.
+The third agent is now defined.
 
 Files:
 
 - `agents/fitting-image-agent.md`
 - `templates/fitting-image-request-template.md`
 - `templates/model-profile-template.md`
-- `templates/product-library-record-template.md`
 - `templates/fitting-image-qa-template.md`
 - `examples/fitting-image-example.md`
 - `examples/fitting-image-product-replacement-example.md`
 
-This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks. It registers reusable model profiles and product library records, checks reference sufficiency, creates generation and replacement prompts, and QA-checks whether each result is accurate enough for ecommerce use.
+This agent creates product-accurate model fitting image prompts for detail pages, SNS, and lookbooks from registered product lock records. It registers reusable model profiles, asks for requested fit and length before generation, creates generation and replacement prompts, and QA-checks whether each result is accurate enough for ecommerce use.
 
 ## Detail Page Agent
 
-The third agent is now defined.
+The fourth agent is now defined.
 
 Files:
 
@@ -113,11 +126,11 @@ Files:
 - `templates/detail-page-template.md`
 - `examples/detail-page-example.md`
 
-This agent turns a product planning result and fitting image direction into a purchase-ready ecommerce detail page structure with fit points, model fit check, size guide, image order, styling section, and final copy draft.
+This agent turns a product planning result, product registration record, and fitting image direction into a purchase-ready ecommerce detail page structure with fit points, model fit check, size guide, image order, styling section, and final copy draft.
 
 ## Content Planning Agent
 
-The fourth agent is now defined.
+The fifth agent is now defined.
 
 Files:
 
@@ -125,11 +138,11 @@ Files:
 - `templates/content-brief-template.md`
 - `examples/content-planning-example.md`
 
-This agent turns a product message into short-form videos, feed carousel posts, captions, hashtags, shooting checklists, and a 7-day content plan.
+This agent turns a product registration record and product message into short-form videos, feed carousel posts, captions, hashtags, shooting checklists, and a 7-day content plan.
 
 ## Styling Agent
 
-The fifth agent is now defined.
+The sixth agent is now defined.
 
 Files:
 
@@ -137,11 +150,11 @@ Files:
 - `templates/styling-request-template.md`
 - `examples/styling-example.md`
 
-This agent creates outfit combinations, product set suggestions, detail page styling blocks, content styling ideas, and cross-sell copy.
+This agent creates outfit combinations, product set suggestions, detail page styling blocks, content styling ideas, and cross-sell copy using the registered product fit and detail constraints.
 
 ## Customer Response Agent
 
-The sixth agent is now defined.
+The seventh agent is now defined.
 
 Files:
 
@@ -149,11 +162,11 @@ Files:
 - `templates/customer-inquiry-template.md`
 - `examples/customer-response-example.md`
 
-This agent creates DORT-tone replies for size questions, fit questions, styling questions, shipping questions, exchange/return guidance, review requests, and post-purchase care.
+This agent creates DORT-tone replies for size questions, fit questions, styling questions, shipping questions, exchange/return guidance, review requests, and post-purchase care using the product registration record as the fit/detail source of truth.
 
 ## Review Insight Agent
 
-The seventh agent is now defined.
+The eighth agent is now defined.
 
 Files:
 
@@ -161,7 +174,7 @@ Files:
 - `templates/review-analysis-template.md`
 - `examples/review-insight-example.md`
 
-This agent analyzes reviews, inquiries, exchange/return reasons, and customer feedback to improve products, detail pages, content, styling, and customer responses.
+This agent analyzes reviews, inquiries, exchange/return reasons, and customer feedback against the product registration record to improve products, detail pages, content, styling, and customer responses.
 
 ## First Product Test Workflow
 
@@ -175,6 +188,7 @@ This document shows how one product moves through the full DORT-OPS loop:
 
 ```text
 Product Planning
+→ Product Registration
 → Fitting Image
 → Detail Page
 → Content Planning

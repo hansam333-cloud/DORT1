@@ -6,6 +6,7 @@ DORT-OPS is designed as a loop. Each agent creates information that the next age
 
 ```text
 Product Planning
+→ Product Registration
 → Fitting Image
 → Detail Page
 → Content Planning
@@ -32,13 +33,30 @@ Main output:
 Product concept brief
 ```
 
-## 2. Fitting Image Agent
+## 2. Product Registration Agent
 
 Purpose:
 
-- Generate product-accurate fitting images from product-only photos
-- Register reusable model profiles and product library records
+- Register product lock values for image generation
+- Separate product intended fit from requested fitting image style
+- Preserve silhouette, length, color, material, texture, and construction details
+- Decide safe and unsafe generation angles
+- Request missing product references before image generation
+
+Main output:
+
+```text
+Product registration record
+```
+
+## 3. Fitting Image Agent
+
+Purpose:
+
+- Generate product-accurate fitting images from registered product lock records
+- Register reusable model profiles
 - Check whether references are sufficient before generation
+- Ask for requested fit, requested length, output use, background, and pose before generation
 - Preserve the registered model's face and body proportions
 - Preserve product details across detail pages, SNS images, and lookbooks
 - Support composition, background, pose, color-option, and product-replacement requests
@@ -49,11 +67,11 @@ Main output:
 Product-accurate fitting image prompt, QA result, and detail page handoff
 ```
 
-## 3. Detail Page Agent
+## 4. Detail Page Agent
 
 Purpose:
 
-- Turn the product brief and fitting image direction into a purchase-ready detail page
+- Turn the product brief, product registration record, and fitting image direction into a purchase-ready detail page
 - Write fit points
 - Create size guide
 - Plan image order and detail cuts
@@ -65,11 +83,12 @@ Main output:
 Detail page draft
 ```
 
-## 4. Content Planning Agent
+## 5. Content Planning Agent
 
 Purpose:
 
 - Convert product value into short-form and feed content
+- Use the product registration record to keep fit, color, material, and detail claims accurate
 - Create hooks, scripts, captions, card news structures, and hashtags
 
 Main output:
@@ -78,11 +97,12 @@ Main output:
 Content package
 ```
 
-## 5. Styling Agent
+## 6. Styling Agent
 
 Purpose:
 
 - Recommend outfit combinations
+- Use the product registration record to avoid styling that hides or misrepresents key product details
 - Increase average order value through set suggestions
 - Create body-type and situation-based styling
 
@@ -92,11 +112,12 @@ Main output:
 Styling recommendation set
 ```
 
-## 6. Customer Response Agent
+## 7. Customer Response Agent
 
 Purpose:
 
 - Reply to customer questions in DORT tone
+- Use product registration values as the source of truth for fit, size, material, and detail claims
 - Recommend sizes based on height, weight, body type, and preferred fit
 - Handle shipping, exchange, return, and review messages
 
@@ -106,11 +127,12 @@ Main output:
 Customer reply draft
 ```
 
-## 7. Review Insight Agent
+## 8. Review Insight Agent
 
 Purpose:
 
 - Analyze customer reviews and return reasons
+- Compare feedback against the registered product intent, fit, and detail claims
 - Identify size confusion, fit issues, fabric issues, and missing detail-page information
 - Feed improvement points back into product planning and detail pages
 

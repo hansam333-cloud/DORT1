@@ -14,7 +14,8 @@ Paste customer message here.
 Product name:
 Product category:
 Available sizes:
-Product fit:
+Product intended fit:
+Product registration record:
 Product measurements:
 Model fit info:
 Detail page result:
@@ -47,4 +48,3 @@ Inventory status:
 ```text
 Create a DORT-tone customer response. Include recommended response, short version, detailed version, internal note, and follow-up question if needed.
 ```
-

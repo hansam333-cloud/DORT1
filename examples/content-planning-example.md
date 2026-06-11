@@ -5,6 +5,7 @@
 ```text
 Product name: [피지컬핏] 쿨링 머슬 반팔티
 Product category: Short sleeve t-shirt
+Product registration record: DORT-TEE-001-BK registration record, GREEN
 Main fit benefit: Upper body looks cleaner and more defined without feeling like gym wear.
 Main material/detail benefit: Soft cotton-blend fabric with slight stretch.
 Recommended styling: Wide denim, semi-wide slacks, bermuda shorts.
@@ -266,4 +267,3 @@ Detail page FIT POINT
 - Final product size measurements
 - Exact fabric composition
 - Launch promotion details
-

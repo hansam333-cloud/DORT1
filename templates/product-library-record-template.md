@@ -1,6 +1,6 @@
-# Product Library Record Template
+# Product Registration Record Template
 
-Use this template to register a product once and reuse it consistently across fitting images, detail pages, SNS content, and styling outputs.
+Use this template as the Product Registration Agent output so one product can be reused consistently across fitting images, detail pages, SNS content, and styling outputs.
 
 ## Product Identity
 
@@ -23,7 +23,10 @@ Available color options:
 Size:
 Available sizes:
 Material:
-Fit:
+Product intended fit:
+Default DORT summer fit recommendation: Athletic / Muscle / Product-intended / Not applicable
+Fit flexibility:
+Do not reinterpret as:
 Measurements:
 Fabric thickness:
 Stretch:
@@ -55,7 +58,10 @@ Hardware close-up:
 ```text
 Silhouette:
 Length:
-Fit:
+Product intended fit:
+Fit flexibility:
+Details that may adapt naturally to body or pose:
+Do not reinterpret as:
 Pocket placement:
 Button count:
 Zipper position:
@@ -95,5 +101,5 @@ Missing references:
 Angles that are safe to generate:
 Angles that are not safe to generate:
 Color options approved for generation:
+Fit conflict notes:
 ```
-

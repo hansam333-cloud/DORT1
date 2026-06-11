@@ -1,6 +1,6 @@
 # Fitting Image Request Template
 
-Use this template when asking the Fitting Image Agent to register a model, register a product, generate fitting images, create variations, replace a product, or QA generated images.
+Use this template when asking the Fitting Image Agent to register a model, generate fitting images from a registered product, create variations, replace a product, or QA generated images.
 
 ## Operating Mode
 
@@ -8,7 +8,6 @@ Use this template when asking the Fitting Image Agent to register a model, regis
 Mode:
 Choose one:
 - Model profile registration
-- Product library registration
 - New fitting image generation
 - Composition/background/pose variation
 - Product replacement
@@ -46,7 +45,8 @@ SKU:
 Category:
 Color:
 Material:
-Fit:
+Product intended fit:
+Default DORT summer fit recommendation:
 Size:
 Measurements:
 Available color options:
@@ -64,7 +64,9 @@ Failed prompt references:
 ```text
 Silhouette:
 Length:
-Fit:
+Product intended fit:
+Fit flexibility:
+Do not reinterpret as:
 Color:
 Material texture:
 Fabric thickness:
@@ -84,13 +86,24 @@ Hardware:
 Other details:
 ```
 
+## Fit And Length Selection
+
+Ask this before generating a new fitting image.
+
+```text
+Requested fit: Athletic / Muscle / Product-intended / Other
+Requested length: Short / Regular / Semi-long / Long / Product-intended
+Fit conflict handling: Product intention wins by default
+Notes:
+```
+
 ## Reference Sufficiency Check
 
 ```text
 Model reference status: GREEN / YELLOW / RED
-Product reference status: GREEN / YELLOW / RED
+Product registration status: GREEN / YELLOW / RED
 Missing model references:
-Missing product references:
+Missing product registration references:
 Details that cannot be verified:
 Generation allowed: Yes / No
 Reason:
@@ -108,6 +121,9 @@ Image ratio:
 Number of variations:
 Products to include:
 Product to replace:
+Requested fit:
+Requested length:
+Fit conflict handling:
 Details that must be visible:
 Details that must not be hidden by phone, hand, arm, mirror frame, or crop:
 ```
@@ -161,9 +177,12 @@ QA priority:
 컬러:
 착용 사이즈:
 소재:
-핏:
+제품 의도 핏:
+요청 핏:
+요청 기장:
+핏 충돌 처리:
 실측:
-사용할 제품 이미지:
+등록된 제품 기록/제품 레퍼런스:
 반드시 보존할 디테일:
 반드시 보여야 하는 디테일:
 가리면 안 되는 디테일:
@@ -177,6 +196,7 @@ QA priority:
 
 제품 디테일은 원본과 동일하게 유지해줘.
 제품의 실루엣, 기장, 컬러, 소재감, 원단 두께, 주머니 위치, 단추 수, 지퍼, 절개선, 스티치, 로고, 프린팅, 워싱, 패턴, 밑단, 소매, 카라, 하드웨어는 임의로 바꾸지 마.
+제품 자체가 오버핏, 루즈핏, 아웃터, 또는 특정 실루엣으로 설계된 경우 요청 핏보다 제품 의도를 우선해줘.
 
 모델의 얼굴과 체형은 등록된 프로필과 일관되게 유지해줘.
 모델을 임의로 더 마르게, 더 크게, 더 근육질로, 더 어리게, 더 화보 모델처럼, 또는 다른 사람처럼 보이게 만들지 마.

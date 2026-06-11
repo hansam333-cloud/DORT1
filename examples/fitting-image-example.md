@@ -37,7 +37,10 @@ SKU: DORT-TEE-001
 Category: Short sleeve tee
 Color: Black
 Material: cooling cotton blend
-Fit: shoulder-enhancing semi-muscle fit
+Product intended fit: Athletic fit, shoulder-enhancing tee
+Default DORT summer fit recommendation: Athletic
+Requested fit: Athletic
+Requested length: Product-intended
 Size: L
 Available color options: Black, White, Charcoal
 Front image: available
@@ -50,7 +53,7 @@ Detail images: collar, sleeve opening, hem, fabric texture
 
 ```text
 Model reference status: GREEN
-Product reference status: GREEN
+Product registration status: GREEN
 Generation allowed: Yes
 Reason: Front, back, side, and key detail references are available. Requested front full-body composition does not require guessing hidden details.
 ```
@@ -62,7 +65,7 @@ Preserve:
 - Black cooling cotton blend texture
 - Clean crew neck shape
 - Shoulder-enhancing sleeve angle
-- Semi-muscle fit through chest and arms
+- Athletic fit through chest and arms
 - Relaxed but clean body line
 - Original hem length
 - No added logo or print
@@ -82,6 +85,9 @@ Image ID: DORT-TEE-001-BK_MODEL-SAEM_MAIN-FIT_FRONT_4x5_v01
 Output use: detail page main fitting cut
 Product ID: DORT-TEE-001-BK
 Model ID: MODEL-SAEM
+Requested fit: Athletic
+Requested length: Product-intended
+Fit conflict handling: Product intention wins by default
 Composition: full-body front
 Camera height: eye-level
 Lens feel: natural ecommerce lens, no wide distortion
@@ -109,7 +115,9 @@ Category: Short sleeve tee
 Color: Black
 Size: L
 Material: cooling cotton blend
-Fit: shoulder-enhancing semi-muscle fit
+Product intended fit: Athletic fit, shoulder-enhancing tee
+Requested fit: Athletic
+Requested length: Product-intended
 
 Create a full-body front fitting image in a neutral gray studio background, 4:5 ratio, eye-level camera, natural standing pose.
 

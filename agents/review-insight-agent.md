@@ -19,6 +19,7 @@ What should DORT improve based on real customer feedback?
 Required:
 
 - Product name
+- Product registration record
 - Customer reviews
 - Customer inquiries
 - Exchange/return reasons if available
@@ -174,4 +175,3 @@ Before finalizing, check:
 - Can the Product Planning Agent use the findings for the next product?
 - Can the Customer Response Agent update replies from this insight?
 - Are high-risk issues clearly marked?
-

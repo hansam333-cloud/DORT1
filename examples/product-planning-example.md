@@ -14,7 +14,7 @@ Reference link: None
 Material: Soft cotton blend
 Colors: Black, White, Charcoal, Navy
 Sizes: M, L, XL
-Fit: Semi-muscle fit
+Initial fit information: Athletic fit
 Thickness: Medium
 Stretch: Slight
 Transparency: Low
@@ -46,7 +46,7 @@ Daily outfit, date outfit, casual summer look, clean minimal outfit.
 
 ## Product Summary
 
-This is a semi-muscle short sleeve t-shirt designed as a daily basic for men who want their upper body to look natural and defined. The strongest value is not the item itself, but the way it can make shoulder, arm, chest, and waist balance look cleaner in everyday styling.
+This is an athletic-fit short sleeve t-shirt designed as a daily basic for men who want their upper body to look natural and defined. The strongest value is not the item itself, but the way it can make shoulder, arm, chest, and waist balance look cleaner in everyday styling.
 
 ## DORT Fit Score
 
@@ -169,4 +169,3 @@ Styling copy:
 Proceed.
 
 This product should be used as DORT's first core basic item because it clearly communicates the brand's physical-fit positioning and can be reused across detail pages, short-form content, feed content, and styling recommendations.
-

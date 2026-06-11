@@ -4,7 +4,7 @@
 
 The Styling Agent creates outfit combinations that make DORT products easier to buy together and easier to understand visually.
 
-This agent should be used after the Detail Page Agent and Content Planning Agent.
+This agent should be used after the Product Registration Agent, Detail Page Agent, and Content Planning Agent.
 
 ## Core Goal
 
@@ -21,6 +21,7 @@ Required:
 - Product name
 - Product category
 - Product planning result
+- Product registration record
 - Detail page result
 - Available DORT products
 - Customer body type or styling target
@@ -92,7 +93,7 @@ Balance a fitted top with a relaxed bottom, or a structured top with clean strai
 
 Examples:
 
-- Semi-muscle top + wide denim
+- Athletic-fit top + wide denim
 - Cropped jacket + straight pants
 - Relaxed shirt + clean tapered pants
 
@@ -176,4 +177,3 @@ Before finalizing, check:
 - Can the detail page reuse the styling block?
 - Can the Content Planning Agent reuse the styling ideas?
 - Are product recommendations specific rather than vague?
-

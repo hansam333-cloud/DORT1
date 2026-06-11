@@ -20,6 +20,7 @@ Required:
 
 - Customer message
 - Product name
+- Product registration record for product-specific questions
 - Product size information
 - Product fit notes
 - Customer body information if provided
@@ -181,4 +182,3 @@ Before finalizing, check:
 - Does it avoid pressure selling?
 - Does it protect exchange/return trust?
 - Is any follow-up question necessary?
-

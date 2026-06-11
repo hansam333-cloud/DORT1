@@ -4,7 +4,7 @@
 
 The Product Planning Agent decides whether a product candidate fits DORT and turns raw product information into a sellable product concept.
 
-This agent should be used before detail page writing, content planning, styling, and customer response.
+This agent should be used before Product Registration, fitting image generation, detail page writing, content planning, styling, and customer response.
 
 ## Core Goal
 
@@ -24,7 +24,7 @@ Required:
 - Material
 - Available colors
 - Available sizes
-- Fit information
+- Initial fit information
 - Model size information if available
 - Supplier notes or product description
 

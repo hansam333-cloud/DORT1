@@ -8,6 +8,12 @@ Use this template when asking the Detail Page Agent to create a DORT product det
 Paste the Product Planning Agent result here.
 ```
 
+## Product Registration Record
+
+```text
+Paste the Product Registration Agent result here.
+```
+
 ## Fitting Image Result
 
 ```text
@@ -23,7 +29,8 @@ Expected selling price:
 Colors:
 Sizes:
 Material:
-Fit:
+Product intended fit:
+Requested fit if used:
 Season:
 ```
 

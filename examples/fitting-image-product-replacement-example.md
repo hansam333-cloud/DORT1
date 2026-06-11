@@ -18,7 +18,10 @@ Product name: Clean Semi-Over Short Sleeve Shirt
 Category: Short sleeve shirt
 Color: White
 Material: cotton nylon blend
-Fit: semi-over
+Product intended fit: Semi-over
+Default DORT summer fit recommendation: Product-intended
+Requested fit: Product-intended
+Requested length: Product-intended
 Size: L
 Available color options: White, Light Blue
 References: front, back, side, collar, button placket, chest pocket, sleeve, hem, fabric close-up
@@ -28,7 +31,7 @@ References: front, back, side, collar, button placket, chest pocket, sleeve, hem
 
 ```text
 Model reference status: GREEN
-Product reference status: GREEN
+Product registration status: GREEN
 Generation allowed: Yes
 Reason: Replacement product has enough references for front full-body pose. Button placket, collar, chest pocket, sleeve, and hem are visible and verified.
 ```
@@ -50,6 +53,15 @@ Keep:
 Replace only:
 - Remove DORT-TEE-001-BK
 - Add DORT-SHIRT-003-WH
+
+Requested fit:
+- Product-intended
+
+Requested length:
+- Product-intended
+
+Fit conflict handling:
+- Product intention wins by default
 
 Preserve the new product exactly:
 - White cotton nylon blend texture
@@ -77,4 +89,3 @@ Approved: Yes
 Revision needed: None
 Additional references needed: None
 ```
-

@@ -29,40 +29,64 @@ Output:
 
 Next:
 
-Pass the product planning result to the Fitting Image Agent.
+Pass the product planning result and product photos to the Product Registration Agent.
 
-## Step 2. Fitting Image Agent
+## Step 2. Product Registration Agent
 
 Input:
 
 - Product planning result
 - Product-only photos
+- Product detail photos
+- Available colors and sizes
+- Material and fit notes
+
+Output:
+
+- Product registration record
+- Product intended fit
+- Product lock values
+- Product detail preservation notes
+- Safe and unsafe generation angles
+- Missing product reference requests
+- Fitting Image Agent handoff
+
+Next:
+
+Pass the registered product lock record to the Fitting Image Agent.
+
+## Step 3. Fitting Image Agent
+
+Input:
+
+- Product registration record
 - Registered model face references
 - Registered model full-body references
 - Desired detail-page composition
+- Requested fit and length
 - Desired background
 - Desired pose
 
 Output:
 
 - Product-accurate fitting image prompt
-- Required product reference checklist
 - Main fitting cut direction
 - Full-body, upper-body, side, back, and detail cut direction
-- Product detail preservation notes
+- Product detail preservation notes from the registered product record
 - QA checklist
 - Detail Page Agent handoff notes
 - Missing image requests if the product cannot be reproduced accurately
 
 Next:
 
-Pass the fitting image result and approved image direction to the Detail Page Agent.
+Pass the product registration record, fitting image result, and approved image direction to the Detail Page Agent.
 
-## Step 3. Detail Page Agent
+## Step 4. Detail Page Agent
 
 Input:
 
 - Product planning result
+- Product registration record
 - Fitting image result
 - Product information
 - Model fit information
@@ -80,13 +104,14 @@ Output:
 
 Next:
 
-Pass hooks and fit points to the Content Planning Agent.
+Pass the product registration record, hooks, and fit points to the Content Planning Agent.
 
-## Step 4. Content Planning Agent
+## Step 5. Content Planning Agent
 
 Input:
 
 - Product planning result
+- Product registration record
 - Fitting image result
 - Detail page result
 - Main fit benefit
@@ -107,11 +132,12 @@ Next:
 
 Pass styling-related content to the Styling Agent.
 
-## Step 5. Styling Agent
+## Step 6. Styling Agent
 
 Input:
 
 - Main product
+- Product registration record
 - Fitting image result
 - Detail page result
 - Available products
@@ -130,11 +156,12 @@ Next:
 
 Use styling recommendations in detail pages, feed posts, and customer replies.
 
-## Step 6. Customer Response Agent
+## Step 7. Customer Response Agent
 
 Input:
 
 - Customer message
+- Product registration record
 - Product fit notes
 - Size guide
 - Styling result
@@ -153,11 +180,12 @@ Next:
 
 Store repeated questions for the Review Insight Agent.
 
-## Step 7. Review Insight Agent
+## Step 8. Review Insight Agent
 
 Input:
 
 - Reviews
+- Product registration record
 - Customer inquiries
 - Exchange/return reasons
 - Detail page result
@@ -182,6 +210,7 @@ Feed insights back into Product Planning Agent and Detail Page Agent.
 
 ```text
 Product Planning
+→ Product Registration
 → Fitting Image
 → Detail Page
 → Content Planning

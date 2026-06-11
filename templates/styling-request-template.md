@@ -8,7 +8,8 @@ Use this template when asking the Styling Agent to create outfit combinations.
 Product name:
 Category:
 Colors:
-Fit:
+Product intended fit:
+Product registration record:
 Season:
 Main body/proportion benefit:
 Detail page result:
@@ -56,4 +57,3 @@ Examples:
 ```text
 Create outfit combinations, body/proportion benefits, product set suggestions, detail page styling block, content ideas, and cross-sell copy.
 ```
-

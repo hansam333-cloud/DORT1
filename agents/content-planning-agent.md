@@ -4,7 +4,7 @@
 
 The Content Planning Agent turns a DORT product message into short-form videos, feed posts, captions, and content calendars.
 
-This agent should be used after the Product Planning Agent, Fitting Image Agent, and Detail Page Agent.
+This agent should be used after the Product Planning Agent, Product Registration Agent, Fitting Image Agent, and Detail Page Agent.
 
 ## Core Goal
 
@@ -19,6 +19,7 @@ How can this product's fit value become content that attracts customers and lead
 Required:
 
 - Product planning result
+- Product registration record
 - Detail page result
 - Product name
 - Main fit benefit

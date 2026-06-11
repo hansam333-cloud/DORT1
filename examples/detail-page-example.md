@@ -9,7 +9,8 @@ Expected selling price: 37,900 KRW
 Colors: Black, White, Charcoal, Navy
 Sizes: M, L, XL
 Material: Soft cotton blend
-Fit: Semi-muscle fit
+Product intended fit: Athletic fit
+Product registration record: DORT-TEE-001-BK registration record, GREEN
 Season: Spring / Summer / Early fall
 
 Model height: 183cm
@@ -43,7 +44,7 @@ Customers may worry that the shirt is too tight, too short, or too gym-like.
 
 ## Top Purchase Hooks
 
-- 상체 라인이 깔끔하게 살아나는 세미 머슬핏
+- 상체 라인이 깔끔하게 살아나는 애슬레틱핏
 - 팔은 자연스럽게 차 보이고, 허리는 부해 보이지 않는 실루엣
 - 데님, 슬랙스, 쇼츠에 모두 어울리는 데일리 기본티
 
@@ -186,4 +187,3 @@ Season: Spring / Summer / Early fall
 - Real product photos
 - Washing test result
 - Customer review data
-
