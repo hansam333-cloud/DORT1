@@ -8,6 +8,20 @@ Test product:
 [피지컬핏] 쿨링 머슬 반팔티
 ```
 
+## Temporary Sample Exclusion
+
+The oatmeal/ivory henley short sleeve tee used in early fitting image tests is not the first DØRT product.
+
+Use the following labels for that item:
+
+```text
+temporary test sample
+not a DØRT product
+do not use for product library
+```
+
+That henley tee can be used only to understand the image-generation workflow. Do not register it as a reusable product, do not assign it a DØRT product ID, and do not use it as a detail page, content, or styling source.
+
 ## Step 1. Product Planning Agent
 
 Input:

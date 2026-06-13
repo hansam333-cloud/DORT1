@@ -66,6 +66,20 @@ Recommended:
 - Supplier description
 - Product Planning Agent result
 
+## Temporary Test Sample Exclusion
+
+Do not create a product registration record for products that are only used to test the workflow.
+
+If a product is marked with any of these labels, keep it out of the product registration record and product library:
+
+```text
+temporary test sample
+not a DØRT product
+do not use for product library
+```
+
+Temporary samples may be referenced only as image-generation workflow tests. They must not become reusable DØRT product records, product IDs, detail page inputs, content examples, or styling references unless the user later confirms that the item is an actual DØRT product.
+
 ## Product Intended Fit
 
 The product's intended fit must be registered separately from the requested fitting image style.
