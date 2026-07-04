@@ -17,6 +17,22 @@ The brand should feel:
 - Practical, but still premium
 - Korean men's shopping mall friendly, but more structured and trustworthy
 
+## Brand Name And Mark Usage
+
+DØRT and DORT are not interchangeable typos. They serve different purposes.
+
+```text
+DØRT (slashed O):
+- Use only as the graphic mark / logotype
+- Logo lockup, visual identity, brand mark placements
+
+DORT (plain O):
+- Use as the trademark text
+- Product names, SKUs, hashtags, system labels, legal or registration text, and any copy that must render in a normal font or be typed/searched by a customer
+```
+
+Default to DORT wherever the Ø character might fail to render, be unsearchable, or be hard to type (SNS hashtags, product titles, search fields, code, page copy). Reserve DØRT for the visual logo mark itself.
+
 ## Core Message
 
 ```text
@@ -150,5 +166,5 @@ Examples:
 
 - `[피지컬핏] 쿨링 머슬 반팔티`
 - `[어깨라인 보정] 세미크롭 링거 티셔츠`
-- `[183 기준핏] 롱암 오버 셔츠`
+- `[상체볼륨핏] 롱암 오버 셔츠`
 - `[롱레그핏] 세미와이드 데님`
