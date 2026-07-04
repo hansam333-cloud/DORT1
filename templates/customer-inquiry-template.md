@@ -25,7 +25,6 @@ Styling result:
 ## Customer Info
 
 ```text
-Height:
 Weight:
 Usual top size:
 Usual bottom size:

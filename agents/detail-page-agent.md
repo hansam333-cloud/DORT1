@@ -119,7 +119,7 @@ Always include model information when available.
 Recommended format:
 
 ```text
-MODEL 183cm / 78kg / L 착용
+MODEL 182cm / 75kg / L 착용
 평소 상의 105 착용.
 어깨와 가슴은 여유 있게 맞고, 팔 라인은 자연스럽게 잡히는 DORT 추천핏입니다.
 ```

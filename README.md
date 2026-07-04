@@ -50,7 +50,8 @@ Product Planning
 └── docs/
     ├── workflow.md
     ├── first-product-test-workflow.md
-    └── change-management-workflow.md
+    ├── change-management-workflow.md
+    └── dort-current-context-summary.md
 ```
 
 ## Brand Direction

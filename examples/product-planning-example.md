@@ -21,8 +21,8 @@ Transparency: Low
 Touch: Soft
 Care: Natural dry recommended
 
-Model height: 183cm
-Model weight: 78kg
+Model height: 182cm
+Model weight: 75kg
 Model usual size: 105 / L
 Worn size: L
 Fit notes: Shoulder and chest look defined, waist does not look bulky, length lands around the hip line.

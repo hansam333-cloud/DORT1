@@ -4,17 +4,16 @@
 
 ```text
 Customer message:
-183cm 82kg인데 쿨링 머슬 반팔티 L 입으면 너무 붙을까요?
+82kg인데 쿨링 머슬 반팔티 L 입으면 너무 붙을까요?
 
 Product name: [피지컬핏] 쿨링 머슬 반팔티
 Available sizes: M, L, XL
 Product intended fit: Athletic fit
 Product registration record: DORT-TEE-001-BK registration record, GREEN
 Model fit info:
-183cm / 78kg / L 착용. 평소 상의 105. 어깨와 가슴은 여유 있게 맞고 팔 라인은 자연스럽게 잡히는 DORT 추천핏.
+182cm / 75kg / L 착용. 평소 상의 105. 어깨와 가슴은 여유 있게 맞고 팔 라인은 자연스럽게 잡히는 DORT 추천핏.
 
 Customer info:
-Height: 183cm
 Weight: 82kg
 Usual top size: Unknown
 Body type: likely athletic or average-athletic
@@ -40,7 +39,7 @@ The customer is similar to the model but slightly heavier and is worried that L 
 
 해당 상품은 과하게 조이는 머슬핏보다는 어깨와 팔 라인은 자연스럽게 살리고, 몸통은 부해 보이지 않게 잡는 애슬레틱핏에 가깝습니다.
 
-183cm / 78kg 모델은 L 착용 시 어깨와 가슴은 여유 있게 맞고 팔 라인이 자연스럽게 잡히는 핏이었습니다. 고객님은 모델보다 체중이 조금 더 있으셔서, 정핏에 가깝게 입고 싶으시면 L, 데일리하게 여유 있는 느낌을 원하시면 XL을 추천드립니다.
+182cm / 75kg 모델은 L 착용 시 어깨와 가슴은 여유 있게 맞고 팔 라인이 자연스럽게 잡히는 핏이었습니다. 고객님은 모델보다 체중이 조금 더 있으셔서, 정핏에 가깝게 입고 싶으시면 L, 데일리하게 여유 있는 느낌을 원하시면 XL을 추천드립니다.
 ```
 
 ## Short Version

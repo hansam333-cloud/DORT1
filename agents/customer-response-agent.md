@@ -84,7 +84,6 @@ Use when customers provide body information.
 
 Check:
 
-- Height
 - Weight
 - Usual size
 - Body type

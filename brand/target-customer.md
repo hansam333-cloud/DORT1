@@ -15,7 +15,6 @@ Core profile:
 
 ```text
 Name: DORT Core Customer
-Height: 183cm
 Body: athletic
 Top size: L or 105
 Main need: clothes that show the body naturally without looking too tight, exposed, or overdone
@@ -40,14 +39,14 @@ Pain point: regular tops are too short, too boxy, or too tight in the wrong area
 - "Will it make my waist look bulky?"
 - "Will it look like gym wear instead of restrained dailywear?"
 - "Will it feel too exposed or too obvious?"
-- "What size should I buy if I am 183cm and 78kg?"
+- "What size should I buy for my body type?"
 
 ## DORT Response Strategy
 
 Every product page and content asset should answer these questions quickly:
 
 1. Who is this for?
-2. How does it fit on 183cm athletic body type?
+2. How does it fit an athletic body type?
 3. What body line does it improve?
 4. What size should the customer choose?
 5. What should it be styled with?

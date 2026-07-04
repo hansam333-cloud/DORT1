@@ -14,8 +14,8 @@ Goal: Create a product-accurate full-body fitting image before building the deta
 
 ```text
 Model ID: MODEL-SAEM
-Height: 178cm
-Weight: 76kg
+Height: 182cm
+Weight: 75kg
 Top size: L
 Bottom size: M-L
 Shoulder width: broad

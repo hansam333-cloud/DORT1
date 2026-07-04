@@ -13,8 +13,8 @@ Product intended fit: Athletic fit
 Product registration record: DORT-TEE-001-BK registration record, GREEN
 Season: Spring / Summer / Early fall
 
-Model height: 183cm
-Model weight: 78kg
+Model height: 182cm
+Model weight: 75kg
 Model usual size: 105 / L
 Worn size: L
 Fit notes: Shoulder and chest look defined, waist does not look bulky, length lands around the hip line.
@@ -75,7 +75,7 @@ Customers may worry that the shirt is too tight, too short, or too gym-like.
 ## Model Fit Check
 
 ```text
-MODEL 183cm / 78kg / L 착용
+MODEL 182cm / 75kg / L 착용
 평소 상의 105 착용.
 어깨와 가슴은 여유 있게 맞고, 팔 라인은 자연스럽게 잡히는 DORT 추천핏입니다.
 ```
