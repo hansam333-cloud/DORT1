@@ -22,11 +22,12 @@ Produce product-accurate fitting-image variants for online product detail pages.
 7. Generate only one product category and one color per call. Start every variant from the original fitting photo, never from a generated variant.
 8. Preserve invariants aggressively. Allow changes only to the target product, the smallest necessary body-product boundary, occlusion, pressure, wrinkles, and contact shadow.
 9. Inspect each result against the original and product references. Apply `references/checklist.md`. If an item fails, iterate with one targeted correction and repeat the critical invariants.
-10. Keep raw generated files under the workspace `work` folder. Save final user deliverables under `outputs` using Korean Standard Time and `YY.MM.DD_설명적이름.확장자`. Never overwrite; append `_v02`, `_v03`, and so on.
-11. After visual approval, detect the operating system and create a separate cleaned PNG/JPEG: use `scripts/clean_metadata.ps1` on Windows or `scripts/clean_metadata.py` with `python3` on macOS. Never overwrite or delete the raw generated file.
-12. Run the same platform script in verification mode on the cleaned file. Do not move it to `outputs` or report it as final unless visual checks and metadata verification pass.
-13. If the required runtime or cleanup script cannot run, keep the generated image under `work` as a recoverable draft. Clearly report that cleanup is pending; do not delete the draft and do not present it as an approved final deliverable.
-14. Report the generated colors, approved final file paths, validation result, any pending draft path, and any product-reference limitation. Do not claim that metadata cleanup removes platform detection or disclosure duties.
+10. Keep the image generator's raw PNG under the workspace `work` folder. For opaque detail-page images, do not create an enlarged PNG intermediate; convert the raw image directly to a quality-95 JPEG at the requested dimensions. Use PNG as the final format only when transparency is required.
+11. Save final user deliverables under `outputs` using Korean Standard Time and `YY.MM.DD_설명적이름.확장자`. Never overwrite; append `_v02`, `_v03`, and so on.
+12. After visual approval, detect the operating system. For an opaque final, create one JPEG in `work` with `scripts/prepare_final_jpg.ps1` on Windows or `scripts/prepare_final_jpg.py` with `python3` on macOS, then clean it with the matching `clean_metadata` script into `outputs`. For a transparent final, skip JPEG conversion and clean the raw PNG directly. Never overwrite or delete the raw generated file.
+13. Run the matching cleanup script in verification mode on the final file. Do not report it as final unless visual checks and metadata verification pass.
+14. If the required runtime, conversion script, or cleanup script cannot run, keep the generated image under `work` as a recoverable draft. Clearly report that processing is pending; do not delete the draft and do not present it as an approved final deliverable.
+15. Report the generated colors, approved final file paths, validation result, any pending draft path, and any product-reference limitation. Do not claim that metadata cleanup removes platform detection or disclosure duties.
 
 ## Decision rules
 
@@ -37,20 +38,36 @@ Produce product-accurate fitting-image variants for online product detail pages.
 - Reject any final file that still contains C2PA/`caBX`/JUMBF or AI/tool-identifying metadata.
 - Keep ICC color profiles because color accuracy matters. Normalize orientation before removing unnecessary EXIF orientation data.
 
-## Metadata cleanup
+## Final output and metadata cleanup
 
-Windows PowerShell:
+Opaque output on Windows PowerShell:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/prepare_final_jpg.ps1 -InputPath <raw.png> -OutputPath <work-final.jpg> -Quality 95 [-Width <pixels> -Height <pixels>]
+powershell -ExecutionPolicy Bypass -File scripts/clean_metadata.ps1 -InputPath <work-final.jpg> -OutputPath <final.jpg>
+powershell -ExecutionPolicy Bypass -File scripts/clean_metadata.ps1 -InputPath <final.jpg> -VerifyOnly
+```
+
+Opaque output on macOS with Python 3 and the built-in `sips` utility:
+
+```bash
+python3 scripts/prepare_final_jpg.py --input <raw.png> --output <work-final.jpg> --quality 95 [--width <pixels> --height <pixels>]
+python3 scripts/clean_metadata.py --input <work-final.jpg> --output <final.jpg>
+python3 scripts/clean_metadata.py --input <final.jpg> --verify-only
+```
+
+Transparent PNG output on Windows PowerShell:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/clean_metadata.ps1 -InputPath <raw.png> -OutputPath <final.png>
 powershell -ExecutionPolicy Bypass -File scripts/clean_metadata.ps1 -InputPath <final.png> -VerifyOnly
 ```
 
-macOS with Python 3:
+Transparent PNG output on macOS with Python 3:
 
 ```bash
 python3 scripts/clean_metadata.py --input <raw.png> --output <final.png>
 python3 scripts/clean_metadata.py --input <final.png> --verify-only
 ```
 
-Both scripts support PNG and JPEG and preserve encoded pixel/image data while removing supported metadata containers. If Python 3 is unavailable on macOS, keep the raw image in `work`, report the missing runtime, and wait for installation or another approved cleanup environment. For other image formats, stop and convert through an approved lossless workflow rather than pretending verification succeeded.
+The conversion scripts perform one JPEG encode only. The cleanup scripts support PNG and JPEG and preserve encoded pixel/image data while removing supported metadata containers. If Python 3 or `sips` is unavailable on macOS, keep the raw image in `work`, report the missing runtime, and wait for installation or another approved processing environment. For other image formats, stop rather than pretending verification succeeded.
