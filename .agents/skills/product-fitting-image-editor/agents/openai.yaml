@@ -1,0 +1,6 @@
+interface:
+  display_name: "상품 피팅 이미지 편집기"
+  short_description: "상세페이지용 제품 교체 이미지를 생성하고 정확하게 검수"
+  default_prompt: "Use $product-fitting-image-editor to replace one product in a fitting photo and create validated color variants."
+policy:
+  allow_implicit_invocation: true
